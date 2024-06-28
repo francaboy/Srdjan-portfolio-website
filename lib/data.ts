@@ -68,7 +68,7 @@ type ProjectType = {
 
 export const projectsData: ProjectType[] = [
   {
-    title: "CorpComment",
+    title: "TEST TEST",
     client: "Test",
     category: "Websites",
     description:
@@ -77,14 +77,14 @@ export const projectsData: ProjectType[] = [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
     details2:
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
-    imageUrl: corpcommentImg,
-    image1: corpcommentImg,
-    image2: corpcommentImg,
-    projectUrl: "https://corpcomment.example.com",
+    imageUrl: rmtdevImg,
+    image1: rmtdevImg,
+    image2: rmtdevImg,
+    projectUrl: "https://example.com",
     technologies: ["React", "Node.js", "CSS"],
   },
   {
-    title: "RmtDev",
+    title: "TEST TEST",
     client: "Test",
     category: "Design",
     description:
@@ -96,11 +96,11 @@ export const projectsData: ProjectType[] = [
     imageUrl: rmtdevImg,
     image1: rmtdevImg,
     image2: rmtdevImg,
-    projectUrl: "https://corpcomment.example.com",
+    projectUrl: "https://example.com",
     technologies: ["React", "Node.js", "CSS"],
   },
   {
-    title: "Word Analytics",
+    title: "TEST TEST",
     client: "Test",
     category: "Featured",
     description:
@@ -109,10 +109,10 @@ export const projectsData: ProjectType[] = [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
     details2:
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
-    imageUrl: wordanalyticsImg,
-    image1: corpcommentImg,
-    image2: corpcommentImg,
-    projectUrl: "https://corpcomment.example.com",
+    imageUrl: rmtdevImg,
+    image1: rmtdevImg,
+    image2: rmtdevImg,
+    projectUrl: "https://example.com",
     technologies: ["React", "Node.js", "CSS"],
   },
 ] as const;
