@@ -22,7 +22,7 @@ type ProjectType = {
   imageUrl: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
-  projectUrl: string;
+  image3: StaticImageData;
   technologies: string[];
 };
 
