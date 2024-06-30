@@ -2,10 +2,16 @@ import React from "react";
 import { FaBroadcastTower, FaReact } from "react-icons/fa";
 import { FiDatabase } from "react-icons/fi";
 import { RiAdminLine, RiReactjsLine } from "react-icons/ri";
-import corpcommentImg from "@/public/assets/img/png/corpcomment.png";
 import rmtdevImg from "@/public/assets/img/png/rmtdev.png";
-import wordanalyticsImg from "@/public/assets/img/png/wordanalytics.png";
 import { StaticImageData } from "next/image";
+import trazi from "@/public/assets/img/png/trazi.png";
+import trazi1 from "@/public/assets/img/png/trazi1.png";
+import trazi2 from "@/public/assets/img/png/trazi2.png";
+import trazi3 from "@/public/assets/img/png/trazi3.png";
+import tepic from "@/public/assets/img/png/tepic.png";
+import tepic1 from "@/public/assets/img/png/tepic1.png";
+import tepic2 from "@/public/assets/img/png/tepic2.png";
+import tepic3 from "@/public/assets/img/png/tepic3.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -62,58 +68,79 @@ type ProjectType = {
   imageUrl: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
+  image3: StaticImageData;
   projectUrl: string;
   technologies: string[];
 };
 
 export const projectsData: ProjectType[] = [
   {
-    title: "TEST TEST",
-    client: "Test",
+    title: "Traži Online",
+    client: "Traži.online",
     category: "Websites",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A dynamic news portal delivering real-time updates, breaking news, and in-depth analysis on global events, politics, technology, and entertainment.",
     details:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
+      "My project is a dynamic and comprehensive news portal designed to deliver real-time updates, breaking news, and in-depth analysis on global events, politics, technology, and entertainment. It leverages a robust tech stack to ensure a seamless user experience and high performance.",
     details2:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
-    imageUrl: rmtdevImg,
-    image1: rmtdevImg,
-    image2: rmtdevImg,
-    projectUrl: "https://example.com",
-    technologies: ["React", "Node.js", "CSS"],
+      "The portal is crafted using JavaScript, HTML, and CSS to create a responsive and engaging front-end interface. It employs PHP and SQL to handle server-side logic and database interactions and CodeIgniter framework for enhancing development speed and maintainability.",
+    imageUrl: trazi,
+    image1: trazi1,
+    image2: trazi2,
+    image3: trazi3,
+    projectUrl: "https://trazi.online",
+    technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
   },
   {
-    title: "TEST TEST",
-    client: "Test",
-    category: "Design",
+    title: "Advokat Tepić",
+    client: "Advokat Tepić",
+    category: "Websites",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "A professional law firm website offering comprehensive full legal services, client consultations, case management, and expert advice across various legal fields.",
     details:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
+      "My project is a professional law firm website designed to provide comprehensive legal services, client consultations, case management, and expert advice across various legal fields. The website is built using a combination of modern technologies to ensure a seamless user experience, security, and efficient content delivery.",
     details2:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
-    imageUrl: rmtdevImg,
-    image1: rmtdevImg,
-    image2: rmtdevImg,
-    projectUrl: "https://example.com",
-    technologies: ["React", "Node.js", "CSS"],
+      "The front-end of the website is developed using React, Bootstrap 5, and SASS, which together create a responsive and visually appealing interface.",
+    imageUrl: tepic,
+    image1: tepic1,
+    image2: tepic2,
+    image3: tepic3,
+    projectUrl: "https://advokattepic.com",
+    technologies: ["React", "Bootstrap 5", "SASS"],
   },
   {
-    title: "TEST TEST",
-    client: "Test",
-    category: "Featured",
+    title: "Lssadora Photography",
+    client: "Lssadora Photography",
+    category: "Websites",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A stunning photography portfolio showcasing all of diverse works, featuring high-resolution images and a seamless, visually captivating user experience.",
     details:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
+      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
     details2:
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible...",
+      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
     imageUrl: rmtdevImg,
     image1: rmtdevImg,
     image2: rmtdevImg,
-    projectUrl: "https://example.com",
-    technologies: ["React", "Node.js", "CSS"],
+    image3: rmtdevImg,
+    projectUrl: "https://lssadora.com",
+    technologies: ["React", "Bootstrap 5", "SASS"],
+  },
+  {
+    title: "Naši Korijeni",
+    client: "Naši Korijeni",
+    category: "Websites",
+    description:
+      "The event organizer website offers robust event planning, streamlined ticketing, and full comprehensive management services, ensuring flawless event execution.",
+    details:
+      "This event organizer portfolio project facilitates seamless event planning, ticketing, and management services. It's developed using React for dynamic functionality, Bootstrap 5 for responsive design, and Next.js for server-side rendering and SEO optimization.",
+    details2:
+      "This tech stack ensures efficient event execution and attendee satisfaction through intuitive user interfaces and robust performance.",
+    imageUrl: rmtdevImg,
+    image1: rmtdevImg,
+    image2: rmtdevImg,
+    image3: trazi3,
+    projectUrl: "https://www.nasikorijeni.com/",
+    technologies: ["React", "Next.js", "Bootstrap 5"],
   },
 ] as const;
 

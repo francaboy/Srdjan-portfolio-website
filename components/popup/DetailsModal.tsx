@@ -16,6 +16,7 @@ interface Project {
   imageUrl: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
+  image3: StaticImageData;
 }
 
 interface DetailsModalProps {
@@ -231,7 +232,7 @@ export default function DetailsModal({
         <div className="overflow-hidden shadow-xl mb-8 mt-4 w-full h-auto">
           <div className="relative w-full h-[300px] md:w-[910px] md:h-[450px]">
             <Image
-              src={project.imageUrl}
+              src={project.image3}
               alt={project.title}
               quality={95}
               layout="fill"
