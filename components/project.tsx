@@ -51,17 +51,10 @@ export default function Project({
             className="sm:hidden overflow-hidden rounded-lg shadow-2xl mb-4 mt-4"
             style={{ width: "300px", height: "240px" }}
           >
-            <Image
-              src={imageUrl}
-              alt={title}
-              quality={95}
-              loading="lazy"
-              
-              
-            />
+            <Image src={imageUrl} alt={title} quality={95} loading="lazy" />
           </div>
 
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white text-justify">
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white">
             {description}
           </p>
 
