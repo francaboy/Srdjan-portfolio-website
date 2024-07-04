@@ -2,7 +2,6 @@ import React from "react";
 import { FaBroadcastTower, FaReact } from "react-icons/fa";
 import { FiDatabase } from "react-icons/fi";
 import { RiAdminLine, RiReactjsLine } from "react-icons/ri";
-import rmtdevImg from "@/public/assets/img/png/rmtdev.png";
 import { StaticImageData } from "next/image";
 import trazi from "@/public/assets/img/png/trazi.png";
 import trazi0 from "@/public/assets/img/png/trazi0.png";
@@ -158,6 +157,78 @@ export const projectsData: ProjectType[] = [
     image3: koreni3,
     projectUrl: "https://www.nasikorijeni.com/",
     technologies: ["React", "Next.js", "Bootstrap 5"],
+  },
+  {
+    title: "ConselTech",
+    client: "ConselTech",
+    category: "Websites",
+    description:
+      "Portfolio highlighting electric service and elevator repair projects, showcasing quality installation, maintenance, and exceptional customer satisfaction.",
+    details:
+      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+    details2:
+      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+    imageUrl: isi,
+    topimg: isi1,
+    image1: isi3,
+    image2: isi4,
+    image3: isi2,
+    projectUrl: "https://lssadora.com",
+    technologies: ["React", "Bootstrap 5", "SASS"],
+  },
+  {
+    title: "West Hair Salon",
+    client: "West Hair Salon",
+    category: "Websites",
+    description:
+      "Portfolio highlighting beauty salon projects, showcasing exceptional hairstyling, skincare, and makeup services with a focus on client satisfaction.",
+    details:
+      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+    details2:
+      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+    imageUrl: isi,
+    topimg: isi1,
+    image1: isi3,
+    image2: isi4,
+    image3: isi2,
+    projectUrl: "https://lssadora.com",
+    technologies: ["React", "Bootstrap 5", "SASS"],
+  },
+  {
+    title: "Megaplan Events",
+    client: "Megaplan Events",
+    category: "Websites",
+    description:
+      "Showcasing an event organizing company's portfolio, highlighting successful events, meticulous planning, creative designs, and exceptional client satisfaction.",
+    details:
+      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+    details2:
+      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+    imageUrl: isi,
+    topimg: isi1,
+    image1: isi3,
+    image2: isi4,
+    image3: isi2,
+    projectUrl: "https://www.megaplan.events/",
+    technologies: ["React", "Bootstrap 5", "SASS"],
+  },
+  {
+    title: "Sindikat RTRS",
+    client: "Sindikat RTRS",
+    category: "Websites",
+    description:
+      "A stunning photography portfolio showcasing all of diverse works, featuring high-resolution images and a seamless, visually captivating user experience.",
+    details:
+      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+    details2:
+      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+    imageUrl: isi,
+    topimg: isi1,
+    image1: isi3,
+    image2: isi4,
+    image3: isi2,
+    projectUrl: "https://lssadora.com",
+    technologies: ["React", "Bootstrap 5", "SASS"],
   },
 ] as const;
 
