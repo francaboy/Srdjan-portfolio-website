@@ -5,13 +5,25 @@ import { RiAdminLine, RiReactjsLine } from "react-icons/ri";
 import rmtdevImg from "@/public/assets/img/png/rmtdev.png";
 import { StaticImageData } from "next/image";
 import trazi from "@/public/assets/img/png/trazi.png";
+import trazi0 from "@/public/assets/img/png/trazi0.png";
 import trazi1 from "@/public/assets/img/png/trazi1.png";
 import trazi2 from "@/public/assets/img/png/trazi2.png";
 import trazi3 from "@/public/assets/img/png/trazi3.png";
-import tepic from "@/public/assets/img/png/tepic.png";
-import tepic1 from "@/public/assets/img/png/tepic1.png";
-import tepic2 from "@/public/assets/img/png/tepic2.png";
-import tepic3 from "@/public/assets/img/png/tepic3.png";
+import goja from "@/public/assets/img/png/goja.png";
+import goja1 from "@/public/assets/img/png/goja1.png";
+import goja2 from "@/public/assets/img/png/goja2.png";
+import goja3 from "@/public/assets/img/png/goja3.png";
+import goja4 from "@/public/assets/img/png/goja4.png";
+import isi from "@/public/assets/img/png/isi.png";
+import koreni from "@/public/assets/img/png/koreni.png";
+import koreni1 from "@/public/assets/img/png/koreni1.png";
+import koreni2 from "@/public/assets/img/png/koreni2.png";
+import koreni3 from "@/public/assets/img/png/koreni3.png";
+import koreni4 from "@/public/assets/img/png/koreni4.png";
+import isi1 from "@/public/assets/img/png/isi1.png";
+import isi2 from "@/public/assets/img/png/isi2.png";
+import isi3 from "@/public/assets/img/png/isi3.png";
+import isi4 from "@/public/assets/img/png/isi4.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -66,6 +78,7 @@ type ProjectType = {
   details: string;
   details2: string;
   imageUrl: StaticImageData;
+  topimg: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
   image3: StaticImageData;
@@ -85,6 +98,7 @@ export const projectsData: ProjectType[] = [
     details2:
       "The portal is crafted using JavaScript, HTML, and CSS to create a responsive and engaging front-end interface. It employs PHP and SQL to handle server-side logic and database interactions and CodeIgniter framework for enhancing development speed and maintainability.",
     imageUrl: trazi,
+    topimg: trazi0,
     image1: trazi1,
     image2: trazi2,
     image3: trazi3,
@@ -101,10 +115,11 @@ export const projectsData: ProjectType[] = [
       "My project is a professional law firm website designed to provide comprehensive legal services, client consultations, case management, and expert advice across various legal fields. The website is built using a combination of modern technologies to ensure a seamless user experience, security, and efficient content delivery.",
     details2:
       "The front-end of the website is developed using React, Bootstrap 5, and SASS, which together create a responsive and visually appealing interface.",
-    imageUrl: tepic,
-    image1: tepic1,
-    image2: tepic2,
-    image3: tepic3,
+    imageUrl: goja,
+    topimg: goja1,
+    image1: goja3,
+    image2: goja4,
+    image3: goja2,
     projectUrl: "https://advokattepic.com",
     technologies: ["React", "Bootstrap 5", "SASS"],
   },
@@ -118,10 +133,11 @@ export const projectsData: ProjectType[] = [
       "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
     details2:
       "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
-    imageUrl: rmtdevImg,
-    image1: rmtdevImg,
-    image2: rmtdevImg,
-    image3: rmtdevImg,
+    imageUrl: isi,
+    topimg: isi1,
+    image1: isi3,
+    image2: isi4,
+    image3: isi2,
     projectUrl: "https://lssadora.com",
     technologies: ["React", "Bootstrap 5", "SASS"],
   },
@@ -135,10 +151,11 @@ export const projectsData: ProjectType[] = [
       "This event organizer portfolio project facilitates seamless event planning, ticketing, and management services. It's developed using React for dynamic functionality, Bootstrap 5 for responsive design, and Next.js for server-side rendering and SEO optimization.",
     details2:
       "This tech stack ensures efficient event execution and attendee satisfaction through intuitive user interfaces and robust performance.",
-    imageUrl: rmtdevImg,
-    image1: rmtdevImg,
-    image2: rmtdevImg,
-    image3: trazi3,
+    imageUrl: koreni,
+    topimg: koreni4,
+    image1: koreni1,
+    image2: koreni2,
+    image3: koreni3,
     projectUrl: "https://www.nasikorijeni.com/",
     technologies: ["React", "Next.js", "Bootstrap 5"],
   },

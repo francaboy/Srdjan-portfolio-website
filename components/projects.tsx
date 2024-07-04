@@ -19,7 +19,8 @@ type ProjectType = {
   description: string;
   details: string;
   details2: string;
-  imageUrl: StaticImageData; //ubaciti jos jedan image za top img
+  imageUrl: StaticImageData;
+  topimg: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
   image3: StaticImageData;

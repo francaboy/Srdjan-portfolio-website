@@ -14,6 +14,7 @@ interface Project {
   details2: string;
   client: string;
   imageUrl: StaticImageData;
+  topimg: StaticImageData;
   image1: StaticImageData;
   image2: StaticImageData;
   image3: StaticImageData;
@@ -146,7 +147,7 @@ export default function DetailsModal({
         <span className="text-xl">Close</span>
       </button>
       <motion.div
-        className="bg-white rounded shadow-lg w-[80vw] max-w-5xl relative p-4 md:p-[50px] max-h-[80vh] overflow-y-auto overflow-x-hidden dark:bg-gray-700 modal-content"
+        className="bg-gray-200 rounded shadow-lg w-[80vw] max-w-5xl relative p-4 md:p-[50px] max-h-[80vh] overflow-y-auto overflow-x-hidden dark:bg-gray-700 modal-content"
         variants={modal}
         onClick={(e) => e.stopPropagation()}
         onWheel={handleWheel}
@@ -154,7 +155,7 @@ export default function DetailsModal({
       >
         <div className="overflow-hidden shadow-xl mb-8 mt-4 w-full h-auto md:w-[910px] md:h-[450px]">
           <Image
-            src={project.imageUrl}
+            src={project.topimg}
             alt={project.title}
             quality={95}
             layout="responsive"
@@ -168,10 +169,10 @@ export default function DetailsModal({
           <div className="flex-1 mr-0 md:mr-8">
             <h2 className="text-xl font-bold">{project.title}</h2>
             <span className="text-xl font-light">Details</span>
-            <p className="text-gray-600 text-justify mt-4 dark:text-white">
+            <p className="text-gray-600  mt-4 dark:text-white">
               {project.details}
             </p>
-            <p className="text-gray-600 text-justify mt-4 dark:text-white">
+            <p className="text-gray-600  mt-4 dark:text-white">
               {project.details2}
             </p>
           </div>
@@ -189,7 +190,7 @@ export default function DetailsModal({
                   {project.technologies.map((tech: string, index: number) => (
                     <span
                       key={index}
-                      className="bg-gray-200 px-2 py-1 rounded dark:bg-gray-800 hover:scale-[1.15] active:scale-105 transition-all duration-600 transform"
+                      className="bg-gray-400 px-2 py-1 rounded dark:bg-gray-800 hover:scale-[1.15] active:scale-105 transition-all duration-600 transform"
                     >
                       {tech}
                     </span>
@@ -230,7 +231,7 @@ export default function DetailsModal({
         </div>
 
         <div className="overflow-hidden shadow-xl mb-8 mt-4 w-full h-auto">
-          <div className="relative w-full h-[300px] md:w-[910px] md:h-[450px]">
+          <div className="relative w-full h-[140px] md:w-[910px] md:h-[450px]">
             <Image
               src={project.image3}
               alt={project.title}
