@@ -165,16 +165,16 @@ export const projectsData: ProjectType[] = [
     description:
       "Portfolio highlighting electric service and elevator repair projects, showcasing quality installation, maintenance, and exceptional customer satisfaction.",
     details:
-      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+      "This electric service company portfolio project demonstrates expertise in installation, maintenance, and repair services for residential and commercial clients. It showcases a commitment to quality workmanship and customer satisfaction.",
     details2:
-      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+      "The portfolio provides a comprehensive overview of the company's capabilities, ensuring clarity and trust in their electrical solutions for diverse client needs.",
     imageUrl: isi,
     topimg: isi1,
     image1: isi3,
     image2: isi4,
     image3: isi2,
-    projectUrl: "https://lssadora.com",
-    technologies: ["React", "Bootstrap 5", "SASS"],
+    projectUrl: "https://conseltech.se/",
+    technologies: ["React", "Bootstrap 5", "Next"],
   },
   {
     title: "West Hair Salon",
@@ -183,16 +183,16 @@ export const projectsData: ProjectType[] = [
     description:
       "Portfolio highlighting beauty salon projects, showcasing exceptional hairstyling, skincare, and makeup services with a focus on client satisfaction.",
     details:
-      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+      "This beauty salon portfolio project highlights a variety of hair styling, skincare, and makeup services, emphasizing quality and client satisfaction. It showcases the salon's expertise in enhancing beauty and wellness through personalized treatments and professional techniques.",
     details2:
-      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+      "The portfolio ensures an engaging and informative experience, showcasing the salon's services, expertise, and dedication to enhancing clients' beauty and confidence.",
     imageUrl: isi,
     topimg: isi1,
     image1: isi3,
     image2: isi4,
     image3: isi2,
-    projectUrl: "https://lssadora.com",
-    technologies: ["React", "Bootstrap 5", "SASS"],
+    projectUrl: "https://west-hair-salon-website.vercel.app/",
+    technologies: ["HTML", "Bootstrap 5", "CSS"],
   },
   {
     title: "Megaplan Events",
@@ -201,34 +201,34 @@ export const projectsData: ProjectType[] = [
     description:
       "Showcasing an event organizing company's portfolio, highlighting successful events, meticulous planning, creative designs, and exceptional client satisfaction.",
     details:
-      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+      "Event organizer portfolio project showcases a range of successfully managed events, highlighting meticulous planning, creative designs, and flawless execution. The portfolio features various types of events, from corporate gatherings to personal celebrations, demonstrating versatility and expertise.",
     details2:
-      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+      "The project ensures an engaging and seamless user experience, enhancing the presentation of event planning capabilities, improving client satisfaction, and showcasing the organizer's attention to detail and creativity.",
     imageUrl: isi,
     topimg: isi1,
     image1: isi3,
     image2: isi4,
     image3: isi2,
     projectUrl: "https://www.megaplan.events/",
-    technologies: ["React", "Bootstrap 5", "SASS"],
+    technologies: ["React", "Bootstrap 5", "Next"],
   },
   {
     title: "Sindikat RTRS",
     client: "Sindikat RTRS",
     category: "Websites",
     description:
-      "A stunning photography portfolio showcasing all of diverse works, featuring high-resolution images and a seamless, visually captivating user experience.",
+      "Portfolio showcasing TV station syndicate website projects, featuring dynamic content management, seamless broadcasting solutions, and enhanced viewer engagement.",
     details:
-      "This photography portfolio project showcases a diverse collection of high-resolution images, designed to offer a visually captivating experience. It is built using React for dynamic interactivity, Bootstrap 5 for responsive design, and SASS for efficient styling management.",
+      "This TV station syndicate website project showcases a comprehensive and dynamic platform for managing and broadcasting content across multiple stations. The website offers robust content management features, seamless broadcasting capabilities, and an engaging user interface.",
     details2:
-      "This tech stack ensures a seamless and engaging presentation of my photography work, enhancing user experience and accessibility.",
+      "The platform ensures a seamless and engaging user experience, enhancing the management and presentation of syndicated TV content, improving viewer engagement, and accessibility.",
     imageUrl: isi,
     topimg: isi1,
     image1: isi3,
     image2: isi4,
     image3: isi2,
-    projectUrl: "https://lssadora.com",
-    technologies: ["React", "Bootstrap 5", "SASS"],
+    projectUrl: "https://sindikat-rtrs-website.vercel.app/",
+    technologies: ["HTML", "Bootstrap 5", "CSS"],
   },
 ] as const;
 
