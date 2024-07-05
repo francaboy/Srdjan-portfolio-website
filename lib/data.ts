@@ -23,6 +23,27 @@ import isi1 from "@/public/assets/img/png/isi1.png";
 import isi2 from "@/public/assets/img/png/isi2.png";
 import isi3 from "@/public/assets/img/png/isi3.png";
 import isi4 from "@/public/assets/img/png/isi4.png";
+import tech from "@/public/assets/img/png/tech.png";
+import tech1 from "@/public/assets/img/png/tech1.png";
+import tech2 from "@/public/assets/img/png/tech2.png";
+import tech3 from "@/public/assets/img/png/tech3.png";
+import tech4 from "@/public/assets/img/png/tech4.png";
+import salon from "@/public/assets/img/png/salon.png";
+import salon1 from "@/public/assets/img/png/salon1.png";
+import salon2 from "@/public/assets/img/png/salon2.png";
+import salon3 from "@/public/assets/img/png/salon3.png";
+import salon4 from "@/public/assets/img/png/salon4.png";
+import mega from "@/public/assets/img/png/mega.png";
+import mega1 from "@/public/assets/img/png/mega1.png";
+import mega2 from "@/public/assets/img/png/mega2.png";
+import mega3 from "@/public/assets/img/png/mega3.png";
+import mega4 from "@/public/assets/img/png/mega4.png";
+import rtrs from "@/public/assets/img/png/rtrs.png";
+import rtrs1 from "@/public/assets/img/png/rtrs1.png";
+import rtrs2 from "@/public/assets/img/png/rtrs2.png";
+import rtrs3 from "@/public/assets/img/png/rtrs3.png";
+import rtrs4 from "@/public/assets/img/png/rtrs4.png";
+
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -168,11 +189,11 @@ export const projectsData: ProjectType[] = [
       "This electric service company portfolio project demonstrates expertise in installation, maintenance, and repair services for residential and commercial clients. It showcases a commitment to quality workmanship and customer satisfaction.",
     details2:
       "The portfolio provides a comprehensive overview of the company's capabilities, ensuring clarity and trust in their electrical solutions for diverse client needs.",
-    imageUrl: isi,
-    topimg: isi1,
-    image1: isi3,
-    image2: isi4,
-    image3: isi2,
+    imageUrl: tech,
+    topimg: tech1,
+    image1: tech3,
+    image2: tech4,
+    image3: tech2,
     projectUrl: "https://conseltech.se/",
     technologies: ["React", "Bootstrap 5", "Next"],
   },
@@ -186,11 +207,11 @@ export const projectsData: ProjectType[] = [
       "This beauty salon portfolio project highlights a variety of hair styling, skincare, and makeup services, emphasizing quality and client satisfaction. It showcases the salon's expertise in enhancing beauty and wellness through personalized treatments and professional techniques.",
     details2:
       "The portfolio ensures an engaging and informative experience, showcasing the salon's services, expertise, and dedication to enhancing clients' beauty and confidence.",
-    imageUrl: isi,
-    topimg: isi1,
-    image1: isi3,
-    image2: isi4,
-    image3: isi2,
+    imageUrl: salon,
+    topimg: salon1,
+    image1: salon3,
+    image2: salon4,
+    image3: salon2,
     projectUrl: "https://west-hair-salon-website.vercel.app/",
     technologies: ["HTML", "Bootstrap 5", "CSS"],
   },
@@ -204,11 +225,11 @@ export const projectsData: ProjectType[] = [
       "Event organizer portfolio project showcases a range of successfully managed events, highlighting meticulous planning, creative designs, and flawless execution. The portfolio features various types of events, from corporate gatherings to personal celebrations, demonstrating versatility and expertise.",
     details2:
       "The project ensures an engaging and seamless user experience, enhancing the presentation of event planning capabilities, improving client satisfaction, and showcasing the organizer's attention to detail and creativity.",
-    imageUrl: isi,
-    topimg: isi1,
-    image1: isi3,
-    image2: isi4,
-    image3: isi2,
+    imageUrl: mega,
+    topimg: mega1,
+    image1: mega3,
+    image2: mega4,
+    image3: mega2,
     projectUrl: "https://www.megaplan.events/",
     technologies: ["React", "Bootstrap 5", "Next"],
   },
@@ -222,11 +243,11 @@ export const projectsData: ProjectType[] = [
       "This TV station syndicate website project showcases a comprehensive and dynamic platform for managing and broadcasting content across multiple stations. The website offers robust content management features, seamless broadcasting capabilities, and an engaging user interface.",
     details2:
       "The platform ensures a seamless and engaging user experience, enhancing the management and presentation of syndicated TV content, improving viewer engagement, and accessibility.",
-    imageUrl: isi,
-    topimg: isi1,
-    image1: isi3,
-    image2: isi4,
-    image3: isi2,
+    imageUrl: rtrs,
+    topimg: rtrs1,
+    image1: rtrs3,
+    image2: rtrs4,
+    image3: rtrs2,
     projectUrl: "https://sindikat-rtrs-website.vercel.app/",
     technologies: ["HTML", "Bootstrap 5", "CSS"],
   },
