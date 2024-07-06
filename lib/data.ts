@@ -43,6 +43,13 @@ import rtrs1 from "@/public/assets/img/png/rtrs1.png";
 import rtrs2 from "@/public/assets/img/png/rtrs2.png";
 import rtrs3 from "@/public/assets/img/png/rtrs3.png";
 import rtrs4 from "@/public/assets/img/png/rtrs4.png";
+import damona from "@/public/assets/img/png/damona.png";
+import damona1 from "@/public/assets/img/png/damona1.png";
+import damona2 from "@/public/assets/img/png/damona2.png";
+import damona3 from "@/public/assets/img/png/damona3.png";
+import damona4 from "@/public/assets/img/png/damona4.png";
+import rolnica from "@/public/assets/img/png/rolnica.png";
+import rolnica1 from "@/public/assets/img/png/rolnica1.png";
 
 
 // detaljni podaci za sajt, za navbar i ostale informacije
@@ -250,6 +257,42 @@ export const projectsData: ProjectType[] = [
     image3: rtrs2,
     projectUrl: "https://sindikat-rtrs-website.vercel.app/",
     technologies: ["HTML", "Bootstrap 5", "CSS"],
+  },
+  {
+    title: "Damona",
+    client: "Damona Coffee Room",
+    category: "Design",
+    description:
+      "Expertly designed and branded to create a cozy, inviting atmosphere that perfectly complements their delightful menu and ambiance.",
+    details:
+      "Focused on creating a cozy and inviting atmosphere, the design incorporated warm colors, comfortable seating, and rustic elements to evoke a sense of homeliness. The branding was developed to reflect the café's unique personality, including custom logos, signage, and menu designs that align with the overall aesthetic.",
+    details2:
+      "",
+    imageUrl: damona,
+    topimg: damona1,
+    image1: damona3,
+    image2: damona4,
+    image3: damona2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Rolnica",
+    client: "Rolnica",
+    category: "Design",
+    description:
+      "Designed a vibrant and playful logo for an ice cream shop, capturing its fun, refreshing, and delightful essence with colorful elements and whimsical typography.",
+    details:
+      "The logo design aimed to capture the fun, refreshing, and delightful essence of the ice cream shop. Vibrant colors and whimsical typography were chosen to reflect the playful nature of the brand. The logo incorporated elements like ice cream cones, scoops, and sprinkles to make it instantly recognizable and appealing to all ages.",
+    details2:
+      "",
+    imageUrl: rolnica,
+    topimg: rolnica1,
+    image1: damona3,
+    image2: damona4,
+    image3: damona2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
   },
 ] as const;
 
