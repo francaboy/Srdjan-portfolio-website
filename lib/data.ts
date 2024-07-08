@@ -73,6 +73,11 @@ import tele1 from "@/public/assets/img/png/tele1.png";
 import tele2 from "@/public/assets/img/png/tele2.png";
 import tele3 from "@/public/assets/img/png/tele3.png";
 import tele4 from "@/public/assets/img/png/tele4.png";
+import gt from "@/public/assets/img/png/gt.png";
+import gt1 from "@/public/assets/img/png/gt1.png";
+import gt2 from "@/public/assets/img/png/gt2.png";
+import gt3 from "@/public/assets/img/png/gt3.png";
+import gt4 from "@/public/assets/img/png/gt4.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -388,6 +393,25 @@ export const projectsData: ProjectType[] = [
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
+  {
+    title: "Grant Thornton",
+    client: "Grant Thornton",
+    category: "Design",
+    description:
+      "Engineered a robust corporate identity for an audit company, fusing integrity, precision, and innovation to elevate trust and operational excellence.",
+    details:
+      "The corporate branding for the audit company was meticulously crafted to embody integrity, precision, and innovation. The design concept focused on creating a visual identity that instills trust and communicates expertise in auditing services. Clean lines, a professional color palette, and sophisticated typography were chosen to convey professionalism and reliability.",
+    details2:
+      "",
+    imageUrl: gt,
+    topimg: tele1,
+    image1: tele3,
+    image2: tele4,
+    image3: tele2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  
   
 ] as const;
 
