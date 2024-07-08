@@ -29,18 +29,18 @@ export default function Project({
   };
 
   // Koristenje Framer Motion hook-ova za animaciju na osnovu skrola
-  const { scrollYProgress } = useScroll({
-    target: ref, // Ciljni element za pracenje skrola
-    offset: ["0 1", "1.33 1"], // Offseti za animaciju
-  });
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  //const { scrollYProgress } = useScroll({
+   // target: ref, // Ciljni element za pracenje skrola
+   // offset: ["0 1", "1.33 1"], // Offseti za animaciju
+  //});
+ // const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   //const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
     <motion.div
       ref={ref}
-      style={{
-        scale: scaleProgess, // Primjena skaliranja na osnovu transformacije skrola
-      }}
+     // style={{
+     //   scale: scaleProgess, // Primjena skaliranja na osnovu transformacije skrola
+    //  }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 hover:bg-gray-200 transition sm:group-even:pl-8 dark:bg-gray-500 dark:hover:bg-gray-700">

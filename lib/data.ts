@@ -50,7 +50,29 @@ import damona3 from "@/public/assets/img/png/damona3.png";
 import damona4 from "@/public/assets/img/png/damona4.png";
 import rolnica from "@/public/assets/img/png/rolnica.png";
 import rolnica1 from "@/public/assets/img/png/rolnica1.png";
-
+import rolnica2 from "@/public/assets/img/png/rolnica2.png";
+import rolnica3 from "@/public/assets/img/png/rolnica3.png";
+import rolnica4 from "@/public/assets/img/png/rolnica4.png";
+import west from "@/public/assets/img/png/west.png";
+import west1 from "@/public/assets/img/png/west1.png";
+import west4 from "@/public/assets/img/png/west4.png";
+import west2 from "@/public/assets/img/png/west2.png";
+import west3 from "@/public/assets/img/png/west3.png";
+import dunje from "@/public/assets/img/png/dunje.png";
+import dunje1 from "@/public/assets/img/png/dunje1.png";
+import dunje2 from "@/public/assets/img/png/dunje2.png";
+import dunje3 from "@/public/assets/img/png/dunje3.png";
+import dunje4 from "@/public/assets/img/png/dunje4.png";
+import nbv from "@/public/assets/img/png/nbv.png";
+import nbv1 from "@/public/assets/img/png/nbv1.png";
+import nbv2 from "@/public/assets/img/png/nbv2.png";
+import nbv3 from "@/public/assets/img/png/nbv3.png";
+import nbv4 from "@/public/assets/img/png/nbv4.png";
+import tele from "@/public/assets/img/png/tele.png";
+import tele1 from "@/public/assets/img/png/tele1.png";
+import tele2 from "@/public/assets/img/png/tele2.png";
+import tele3 from "@/public/assets/img/png/tele3.png";
+import tele4 from "@/public/assets/img/png/tele4.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -205,7 +227,7 @@ export const projectsData: ProjectType[] = [
     technologies: ["React", "Bootstrap 5", "Next"],
   },
   {
-    title: "West Hair Salon",
+    title: "West Hair",
     client: "West Hair Salon",
     category: "Websites",
     description:
@@ -288,12 +310,85 @@ export const projectsData: ProjectType[] = [
       "",
     imageUrl: rolnica,
     topimg: rolnica1,
-    image1: damona3,
-    image2: damona4,
-    image3: damona2,
+    image1: rolnica3,
+    image2: rolnica4,
+    image3: rolnica2,
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
+  {
+    title: "Dunje i Kolači",
+    client: "Dunje i Kolači",
+    category: "Design",
+    description:
+      "Designed a captivating logo and cohesive branding for an event planning and catering company, highlighting elegance, creativity, and memorable experiences.",
+    details:
+      "For the event planning and catering company, the logo and branding were designed to encapsulate elegance, creativity, and memorable experiences. The logo features intricate designs and a sophisticated color palette, evoking a sense of luxury and celebration. Elements like elegant fonts, artistic flourishes, and subtle event-related icons were integrated to reflect the company's expertise in crafting unforgettable events.",
+    details2:
+      "",
+    imageUrl: dunje,
+    topimg: dunje1,
+    image1: dunje3,
+    image2: dunje4,
+    image3: dunje2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "West Hair",
+    client: "West Hair Salon",
+    category: "Design",
+    description:
+      "Developed an elegant logo and cohesive branding for a beauty salon, emphasizing luxury, sophistication, and modern aesthetics with refined elements.",
+    details:
+      "The logo and branding for the beauty salon were designed to reflect luxury, sophistication, and modern aesthetics. An elegant color palette, refined typography, and stylish elements were chosen to create a sense of exclusivity and professionalism. The logo incorporated subtle beauty-related icons to make it instantly recognizable while maintaining a high-end appeal.",
+    details2:
+      "",
+    imageUrl: west,
+    topimg: west1,
+    image1: west3,
+    image2: west4,
+    image3: west2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "NBV računovodstvo",
+    client: "NBV računovodstvo",
+    category: "Design",
+    description:
+      "Developed a dynamic logo and cohesive branding for an accounting firm, merging professionalism with innovation to inspire trust and growth.",
+    details:
+      "For the accounting firm, the logo and branding were designed to be both distinctive and innovative. The logo features an abstract, geometric design symbolizing growth and stability, paired with a modern, vibrant color palette to convey energy and forward-thinking. The typography is sleek and professional, ensuring a polished and contemporary look.",
+    details2:
+      "",
+    imageUrl: nbv,
+    topimg: nbv1,
+    image1: nbv3,
+    image2: nbv4,
+    image3: nbv2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Telemark",
+    client: "Telemark",
+    category: "Design",
+    description:
+      "Designed an engaging logo and dynamic branding for a call center and marketing company, blending connectivity, innovation, and customer engagement.",
+    details:
+      "The logo and branding for the call center and marketing company were crafted to embody connectivity, innovation, and customer engagement. The logo features interconnected shapes and vibrant colors to symbolize communication and dynamic interaction. Modern typography was chosen to reflect the company's forward-thinking approach, while playful yet professional elements convey a sense of energy and enthusiasm.",
+    details2:
+      "",
+    imageUrl: tele,
+    topimg: tele1,
+    image1: tele3,
+    image2: tele4,
+    image3: tele2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  
 ] as const;
 
 export const skillsData = [
