@@ -139,7 +139,7 @@ export default function DetailsModal({
       onClick={onClose}
     >
       <button
-        className="fixed bottom-4 left-1/2 -translate-x-1/2 w-24 h-10 flex items-center justify-center border-4 border-bg-white text-white rounded-full hover:scale-[1.15] active:scale-105 transition-all duration-600 transform hidden md:flex"
+        className="fixed bottom-4 left-1/2 -translate-x-1/2 w-24 h-10  items-center justify-center border-4 border-bg-white text-white rounded-full hover:scale-[1.15] active:scale-105 transition-all duration-600 transform hidden md:flex"
         onClick={onClose}
         aria-label="Close"
       >

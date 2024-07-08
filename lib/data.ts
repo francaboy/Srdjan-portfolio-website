@@ -152,7 +152,7 @@ export const experiencesData = [
 type ProjectType = {
   title: string;
   client: string;
-  category: "Featured" | "Websites" | "Design";
+  category: "Websites" | "Design";
   description: string;
   details: string;
   details2: string;

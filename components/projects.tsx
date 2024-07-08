@@ -10,7 +10,7 @@ import Image from "next/image";
 import DetailsModal from "./popup/DetailsModal";
 import { StaticImageData } from "next/image";
 
-type Category = "Featured" | "Websites" | "Design";
+type Category = "Websites" | "Design"; // Updated to remove "Featured"
 
 type ProjectType = {
   title: string;
@@ -30,7 +30,7 @@ type ProjectType = {
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
 
-  const [activeTab, setActiveTab] = useState<Category>("Featured");
+  const [activeTab, setActiveTab] = useState<Category>("Websites"); // Default to "Websites"
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [selectedProject, setSelectedProject] = useState<ProjectType | null>(
@@ -52,8 +52,7 @@ export default function Projects() {
   };
 
   const filteredProjects = projectsData.filter((project) => {
-    if (activeTab === "Featured") return true;
-    return project.category === activeTab;
+    return project.category === activeTab; // Filter based on activeTab
   });
 
   const showCarousel = filteredProjects.length > 4;
@@ -120,7 +119,7 @@ export default function Projects() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          {["Featured", "Websites", "Design"].map((tab) => (
+          {["Websites", "Design"].map((tab) => (
             <motion.button
               key={tab}
               className={`px-4 py-2 rounded-full transition-colors duration-300 ${
@@ -198,7 +197,7 @@ export default function Projects() {
             <div className="absolute top-[49%] transform -translate-y-1/2 -left-20 -ml-20 hidden md:block">
               <motion.button
                 onClick={prevSlide}
-                className="rounded-full border bg-black   p-4  w-20 h-20 flex items-center justify-center
+                className="rounded-full border bg-black  border-white p-4  w-20 h-20 flex items-center justify-center
                 hover:bg-[#9d90fe] hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -218,7 +217,7 @@ export default function Projects() {
                   nextSlide();
                   event.stopPropagation();
                 }}
-                className="rounded-full border bg-black  p-4  w-20 h-20 flex items-center justify-center hover:bg-[#9d90fe]
+                className="rounded-full border bg-black border-white p-4  w-20 h-20 flex items-center justify-center hover:bg-[#9d90fe]
                         hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -234,6 +233,41 @@ export default function Projects() {
             </div>
           </>
         )}
+      </div>
+      <div className="flex justify-center mt-4 gap-40 md:hidden">
+        <motion.button
+          onClick={prevSlide}
+          className="rounded-full border bg-black  border-white p-4  w-20 h-20 flex items-center justify-center
+                hover:bg-[#9d90fe] hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Image
+            src="https://img.icons8.com/ios-filled/50/FFFFFF/long-arrow-left.png"
+            alt="long-arrow-left"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </motion.button>
+        <motion.button
+          onClick={(event) => {
+            nextSlide();
+            event.stopPropagation();
+          }}
+          className="rounded-full border bg-black border-white p-4  w-20 h-20 flex items-center justify-center hover:bg-[#9d90fe]
+                        hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Image
+            src="https://img.icons8.com/ios-filled/50/FFFFFF/long-arrow-right.png"
+            alt="long-arrow-right"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        </motion.button>
       </div>
 
       <DetailsModal
