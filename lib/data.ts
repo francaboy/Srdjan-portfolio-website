@@ -78,6 +78,17 @@ import gt1 from "@/public/assets/img/png/gt1.png";
 import gt2 from "@/public/assets/img/png/gt2.png";
 import gt3 from "@/public/assets/img/png/gt3.png";
 import gt4 from "@/public/assets/img/png/gt4.png";
+import nasi from "@/public/assets/img/png/nasi.png";
+import nasi1 from "@/public/assets/img/png/nasi1.png";
+import nasi2 from "@/public/assets/img/png/nasi2.png";
+import nasi3 from "@/public/assets/img/png/nasi3.png";
+import nasi4 from "@/public/assets/img/png/nasi4.png";
+import srt from "@/public/assets/img/png/srt.png";
+import srt1 from "@/public/assets/img/png/srt1.png";
+import srt2 from "@/public/assets/img/png/srt2.png";
+import srt3 from "@/public/assets/img/png/srt3.png";
+import srt4 from "@/public/assets/img/png/srt4.png";
+
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -404,10 +415,48 @@ export const projectsData: ProjectType[] = [
     details2:
       "",
     imageUrl: gt,
-    topimg: tele1,
+    topimg: gt1,
     image1: gt3,
     image2: gt4,
-    image3: tele2,
+    image3: gt2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  
+  {
+    title: "Naši Korijeni",
+    client: "Naši Korijeni",
+    category: "Design",
+    description:
+      "Crafted vibrant corporate branding for an event organizing company, blending creativity, elegance, and seamless execution for unforgettable experiences.",
+    details:
+      "The corporate branding for the event organizing company was conceived to encapsulate creativity, elegance, and seamless execution. The design aimed to evoke excitement and anticipation, reflecting the company's ability to deliver unforgettable events. Vibrant colors, playful typography, and dynamic graphic elements were chosen to convey energy and innovation.",
+    details2:
+      "",
+    imageUrl: nasi,
+    topimg: nasi1,
+    image1: nasi3,
+    image2: nasi4,
+    image3: nasi2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  
+  {
+    title: "RTRS",
+    client: "Radio Televizija RS",
+    category: "Design",
+    description:
+      "Crafted dynamic corporate branding for a TV station, merging innovation, storytelling, and visual impact to captivate audiences effectively.",
+    details:
+      "The corporate branding for the TV station was designed to merge innovation, storytelling, and visual impact. The concept aimed to captivate audiences and establish a strong visual identity in the competitive media landscape. Emphasis was placed on creating a dynamic and memorable brand presence that resonates with viewers.",
+    details2:
+      "",
+    imageUrl: srt,
+    topimg: srt1,
+    image1: srt3,
+    image2: srt4,
+    image3: srt2,
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
