@@ -198,7 +198,7 @@ export default function Projects() {
             <div className="absolute top-[49%] transform -translate-y-1/2 -left-20 -ml-20 hidden md:block">
               <motion.button
                 onClick={prevSlide}
-                className="rounded-full border bg-black  border-white p-4  w-20 h-20 flex items-center justify-center
+                className="rounded-full border bg-black   p-4  w-20 h-20 flex items-center justify-center
                 hover:bg-[#9d90fe] hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -218,7 +218,7 @@ export default function Projects() {
                   nextSlide();
                   event.stopPropagation();
                 }}
-                className="rounded-full border bg-black border-white p-4  w-20 h-20 flex items-center justify-center hover:bg-[#9d90fe]
+                className="rounded-full border bg-black  p-4  w-20 h-20 flex items-center justify-center hover:bg-[#9d90fe]
                         hover:text-white font-bold transition-all duration-300 text-justify text-2xl dark:bg-gray-700 dark:hover:bg-black"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

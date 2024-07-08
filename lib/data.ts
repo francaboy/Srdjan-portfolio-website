@@ -116,7 +116,7 @@ export const experiencesData = [
     company: "FrancaTech",
     location: "Banja Luka, B&H",
     description:
-      "Working as developer proficient in HTML, CSS, JavaScript, React.js, Next.js, WordPress, Adobe Suite. Committed to creative, functional websites and apps.",
+      "Working as developer proficient in React.js, Next.js, TypeScript, CSS, Tailwind, JavaScript,  WordPress, Adobe Suite. Committed to creative, functional websites and apps.",
     icon: React.createElement(RiReactjsLine),
     date: "Mar 2015 - Present",
   },
