@@ -88,7 +88,21 @@ import srt1 from "@/public/assets/img/png/srt1.png";
 import srt2 from "@/public/assets/img/png/srt2.png";
 import srt3 from "@/public/assets/img/png/srt3.png";
 import srt4 from "@/public/assets/img/png/srt4.png";
-
+import fest from "@/public/assets/img/png/fest.png";
+import fest1 from "@/public/assets/img/png/fest1.png";
+import fest2 from "@/public/assets/img/png/fest2.png";
+import fest3 from "@/public/assets/img/png/fest3.png";
+import fest4 from "@/public/assets/img/png/fest4.png";
+import tepic from "@/public/assets/img/png/tepic.png";
+import tepic1 from "@/public/assets/img/png/tepic1.png";
+import tepic2 from "@/public/assets/img/png/tepic2.png";
+import tepic3 from "@/public/assets/img/png/tepic3.png";
+import tepic4 from "@/public/assets/img/png/tepic4.png";
+import plan from "@/public/assets/img/png/plan.png";
+import plan1 from "@/public/assets/img/png/plan1.png";
+import plan2 from "@/public/assets/img/png/plan2.png";
+import plan3 from "@/public/assets/img/png/plan3.png";
+import plan4 from "@/public/assets/img/png/plan4.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -304,8 +318,7 @@ export const projectsData: ProjectType[] = [
       "Expertly designed and branded to create a cozy, inviting atmosphere that perfectly complements their delightful menu and ambiance.",
     details:
       "Focused on creating a cozy and inviting atmosphere, the design incorporated warm colors, comfortable seating, and rustic elements to evoke a sense of homeliness. The branding was developed to reflect the café's unique personality, including custom logos, signage, and menu designs that align with the overall aesthetic.",
-    details2:
-      "",
+    details2: "",
     imageUrl: damona,
     topimg: damona1,
     image1: damona3,
@@ -322,8 +335,7 @@ export const projectsData: ProjectType[] = [
       "Designed a vibrant and playful logo for an ice cream shop, capturing its fun, refreshing, and delightful essence with colorful elements and whimsical typography.",
     details:
       "The logo design aimed to capture the fun, refreshing, and delightful essence of the ice cream shop. Vibrant colors and whimsical typography were chosen to reflect the playful nature of the brand. The logo incorporated elements like ice cream cones, scoops, and sprinkles to make it instantly recognizable and appealing to all ages.",
-    details2:
-      "",
+    details2: "",
     imageUrl: rolnica,
     topimg: rolnica1,
     image1: rolnica3,
@@ -340,8 +352,7 @@ export const projectsData: ProjectType[] = [
       "Designed a captivating logo and cohesive branding for an event planning and catering company, highlighting elegance, creativity, and memorable experiences.",
     details:
       "For the event planning and catering company, the logo and branding were designed to encapsulate elegance, creativity, and memorable experiences. The logo features intricate designs and a sophisticated color palette, evoking a sense of luxury and celebration. Elements like elegant fonts, artistic flourishes, and subtle event-related icons were integrated to reflect the company's expertise in crafting unforgettable events.",
-    details2:
-      "",
+    details2: "",
     imageUrl: dunje,
     topimg: dunje1,
     image1: dunje3,
@@ -358,8 +369,7 @@ export const projectsData: ProjectType[] = [
       "Developed an elegant logo and cohesive branding for a beauty salon, emphasizing luxury, sophistication, and modern aesthetics with refined elements.",
     details:
       "The logo and branding for the beauty salon were designed to reflect luxury, sophistication, and modern aesthetics. An elegant color palette, refined typography, and stylish elements were chosen to create a sense of exclusivity and professionalism. The logo incorporated subtle beauty-related icons to make it instantly recognizable while maintaining a high-end appeal.",
-    details2:
-      "",
+    details2: "",
     imageUrl: west,
     topimg: west1,
     image1: west3,
@@ -376,8 +386,7 @@ export const projectsData: ProjectType[] = [
       "Developed a dynamic logo and cohesive branding for an accounting firm, merging professionalism with innovation to inspire trust and growth.",
     details:
       "For the accounting firm, the logo and branding were designed to be both distinctive and innovative. The logo features an abstract, geometric design symbolizing growth and stability, paired with a modern, vibrant color palette to convey energy and forward-thinking. The typography is sleek and professional, ensuring a polished and contemporary look.",
-    details2:
-      "",
+    details2: "",
     imageUrl: nbv,
     topimg: nbv1,
     image1: nbv3,
@@ -394,8 +403,7 @@ export const projectsData: ProjectType[] = [
       "Designed an engaging logo and dynamic branding for a call center and marketing company, blending connectivity, innovation, and customer engagement.",
     details:
       "The logo and branding for the call center and marketing company were crafted to embody connectivity, innovation, and customer engagement. The logo features interconnected shapes and vibrant colors to symbolize communication and dynamic interaction. Modern typography was chosen to reflect the company's forward-thinking approach, while playful yet professional elements convey a sense of energy and enthusiasm.",
-    details2:
-      "",
+    details2: "",
     imageUrl: tele,
     topimg: tele1,
     image1: tele3,
@@ -412,8 +420,7 @@ export const projectsData: ProjectType[] = [
       "Engineered a robust corporate identity for an audit company, fusing integrity, precision, and innovation to elevate trust and operational excellence.",
     details:
       "The corporate branding for the audit company was meticulously crafted to embody integrity, precision, and innovation. The design concept focused on creating a visual identity that instills trust and communicates expertise in auditing services. Clean lines, a professional color palette, and sophisticated typography were chosen to convey professionalism and reliability.",
-    details2:
-      "",
+    details2: "",
     imageUrl: gt,
     topimg: gt1,
     image1: gt3,
@@ -422,7 +429,7 @@ export const projectsData: ProjectType[] = [
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
-  
+
   {
     title: "Naši Korijeni",
     client: "Naši Korijeni",
@@ -431,8 +438,7 @@ export const projectsData: ProjectType[] = [
       "Crafted vibrant corporate branding for an event organizing company, blending creativity, elegance, and seamless execution for unforgettable experiences.",
     details:
       "The corporate branding for the event organizing company was conceived to encapsulate creativity, elegance, and seamless execution. The design aimed to evoke excitement and anticipation, reflecting the company's ability to deliver unforgettable events. Vibrant colors, playful typography, and dynamic graphic elements were chosen to convey energy and innovation.",
-    details2:
-      "",
+    details2: "",
     imageUrl: nasi,
     topimg: nasi1,
     image1: nasi3,
@@ -441,7 +447,7 @@ export const projectsData: ProjectType[] = [
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
-  
+
   {
     title: "RTRS",
     client: "Radio Televizija RS",
@@ -450,8 +456,7 @@ export const projectsData: ProjectType[] = [
       "Crafted dynamic corporate branding for a TV station, merging innovation, storytelling, and visual impact to captivate audiences effectively.",
     details:
       "The corporate branding for the TV station was designed to merge innovation, storytelling, and visual impact. The concept aimed to captivate audiences and establish a strong visual identity in the competitive media landscape. Emphasis was placed on creating a dynamic and memorable brand presence that resonates with viewers.",
-    details2:
-      "",
+    details2: "",
     imageUrl: srt,
     topimg: srt1,
     image1: srt3,
@@ -460,8 +465,58 @@ export const projectsData: ProjectType[] = [
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
   },
-  
-  
+  {
+    title: "Zavičaj Festival",
+    client: "Zavičaj Festival",
+    category: "Design",
+    description:
+      "Crafted vibrant corporate and logo designs for an ethnic festival, capturing cultural essence and fostering community spirit with creativity.",
+    details:
+      "The corporate and logo design project for the ethnic festival focused on creating a vibrant and cohesive brand identity that captured the festival's cultural richness and diversity, involving extensive research on cultural backgrounds, developing versatile logo concepts, and designing promotional materials that reflect the festival's vibrant atmosphere, ultimately ensuring a dynamic and memorable visual presence that fosters a sense of community and celebrates diverse heritage.",
+    details2: "",
+    imageUrl: fest,
+    topimg: fest1,
+    image1: fest3,
+    image2: fest4,
+    image3: fest2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+
+  {
+    title: "Advokat Tepić",
+    client: "Advokat Tepić",
+    category: "Design",
+    description:
+      "Developed sophisticated corporate branding and logo design for a law firm, emphasizing professionalism, trust, and modern legal expertise.",
+    details:
+      "The corporate and logo design project for the law firm involved developing a sophisticated and cohesive brand identity that emphasized professionalism, trust, and modern legal expertise, incorporating thorough research into legal industry aesthetics, creating versatile logo concepts, and designing business stationery, marketing materials, and digital assets to ensure a consistent and authoritative visual presence across all platforms.",
+    details2: "",
+    imageUrl: tepic,
+    topimg: tepic1,
+    image1: tepic3,
+    image2: tepic4,
+    image3: tepic2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Megaplan Events",
+    client: "Megaplan Events",
+    category: "Design",
+    description:
+      "Created dynamic corporate branding and logo design for an event organizer firm, highlighting innovation, creativity, and seamless event execution.",
+    details:
+      "The corporate and logo design project for the event organizer firm focused on creating a dynamic and cohesive brand identity that highlights innovation, creativity, and seamless event execution, incorporating extensive market research, developing versatile logo concepts, and designing a full suite of business stationery, promotional materials, and digital assets to ensure a consistent and impactful visual presence across all platforms.",
+    details2: "",
+    imageUrl: plan,
+    topimg: plan1,
+    image1: plan3,
+    image2: plan4,
+    image3: plan2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
 ] as const;
 
 export const skillsData = [
