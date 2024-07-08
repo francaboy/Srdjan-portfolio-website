@@ -9,6 +9,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import SectionDivider from "./section-divider";
 
 // Definicija LinkType koja opisuje strukturu linka u footeru
 type LinkType = {

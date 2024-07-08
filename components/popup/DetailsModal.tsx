@@ -139,19 +139,18 @@ export default function DetailsModal({
       onClick={onClose}
     >
       <button
-        className="fixed bottom-4 left-1/2 -translate-x-1/2 w-24 h-10 flex items-center justify-center border-4 border-bg-white text-white
-         rounded-full hover:scale-[1.15] active:scale-105 transition-all duration-600 transform"
+        className="fixed bottom-4 left-1/2 -translate-x-1/2 w-24 h-10 flex items-center justify-center border-4 border-bg-white text-white rounded-full hover:scale-[1.15] active:scale-105 transition-all duration-600 transform hidden md:flex"
         onClick={onClose}
         aria-label="Close"
       >
         <span className="text-xl">Close</span>
       </button>
       <motion.div
-        className="bg-gray-200 rounded shadow-lg w-[80vw] max-w-5xl relative p-4 md:p-[50px] max-h-[80vh] overflow-y-auto overflow-x-hidden dark:bg-gray-700 modal-content"
+        className="bg-gray-200 rounded shadow-lg w-full md:w-[80vw] max-w-5xl relative p-4 md:p-10 max-h-[80vh] overflow-y-auto overflow-x-hidden dark:bg-gray-700 modal-content"
         variants={modal}
         onClick={(e) => e.stopPropagation()}
         onWheel={handleWheel}
-        style={{ scrollBehavior: "smooth" }}
+        style={{ scrollBehavior: "smooth", margin: "0 10px" }}
       >
         <div className="overflow-hidden shadow-xl mb-8 mt-4 w-full h-auto md:w-[910px] md:h-[450px]">
           <Image
