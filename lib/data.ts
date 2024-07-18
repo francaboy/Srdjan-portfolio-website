@@ -103,6 +103,11 @@ import plan1 from "@/public/assets/img/png/plan1.png";
 import plan2 from "@/public/assets/img/png/plan2.png";
 import plan3 from "@/public/assets/img/png/plan3.png";
 import plan4 from "@/public/assets/img/png/plan4.png";
+import tanja from "@/public/assets/img/png/tanja.png";
+import tanja1 from "@/public/assets/img/png/tanja1.png";
+import tanja2 from "@/public/assets/img/png/tanja2.png";
+import tanja3 from "@/public/assets/img/png/tanja3.png";
+import tanja4 from "@/public/assets/img/png/tanja4.png";
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -309,6 +314,24 @@ export const projectsData: ProjectType[] = [
     image3: rtrs2,
     projectUrl: "https://sindikat-rtrs-website.vercel.app/",
     technologies: ["HTML", "Bootstrap 5", "CSS"],
+  },
+  {
+    title: "Apartman Tanja",
+    client: "Apartman Tanja",
+    category: "Websites",
+    description:
+      "The property rental website provides an all-encompassing solution for finding and managing rental properties with ease, ensuring a seamless experience for both property owners and tenants.",
+    details:
+      "This property rental portfolio project streamlines the entire rental process, from listing and searching properties to managing bookings and payments. Built with React for dynamic interactions, Bootstrap 5 for a modern and responsive layout, and Next.js for enhanced server-side rendering and SEO performance, this platform ensures a top-notch user experience.",
+    details2:
+      "This tech stack delivers a robust and intuitive property rental platform that facilitates smooth transactions and fosters positive tenant-landlord relationships through efficient, user-friendly features and reliable performance.",
+    imageUrl: tanja,
+    topimg: tanja4,
+    image1: tanja1,
+    image2: tanja2,
+    image3: tanja3,
+    projectUrl: "https://apartman-tanja-website.vercel.app/",
+    technologies: ["React", "Next.js", "Bootstrap 5"],
   },
   {
     title: "Damona",
