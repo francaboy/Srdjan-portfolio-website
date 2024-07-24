@@ -108,7 +108,11 @@ import tanja1 from "@/public/assets/img/png/tanja1.png";
 import tanja2 from "@/public/assets/img/png/tanja2.png";
 import tanja3 from "@/public/assets/img/png/tanja3.png";
 import tanja4 from "@/public/assets/img/png/tanja4.png";
-
+import oglasi from "@/public/assets/img/png/oglasi.png";
+import oglasi1 from "@/public/assets/img/png/oglasi1.png";
+import oglasi2 from "@/public/assets/img/png/oglasi2.png";
+import oglasi3 from "@/public/assets/img/png/oglasi3.png";
+import oglasi4 from "@/public/assets/img/png/oglasi4.png";
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
   name: "Home" | "About" | "Projects" | "Skills" | "Experience" | "Contact";
@@ -539,6 +543,24 @@ export const projectsData: ProjectType[] = [
     image3: plan2,
     projectUrl: "",
     technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Traži Oglasi",
+    client: "Traži.online",
+    category: "Websites",
+    description:
+      "A versatile classified ads platform connecting buyers and sellers with ease, offering a streamlined experience for trading a wide range of goods and services locally.",
+    details:
+      "My project is a versatile and user-friendly classified ads platform that connects buyers and sellers effortlessly. It provides a streamlined experience for trading a diverse range of goods and services, catering to both local and global audiences. The platform's intuitive design ensures users can navigate and post ads with ease, fostering a vibrant marketplace.",
+    details2:
+      "The platform is built with a modern tech stack, utilizing JavaScript, HTML, and CSS for a sleek and responsive front-end. Server-side logic and database interactions are handled using PHP and SQL, ensuring robust performance and scalability. By leveraging the CodeIgniter framework, the development process is accelerated, and maintainability is enhanced.",
+    imageUrl: oglasi,
+    topimg: oglasi1,
+    image1: oglasi3,
+    image2: oglasi4,
+    image3: oglasi2,
+    projectUrl: "https://oglasi.trazi.online",
+    technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
   },
 ] as const;
 
