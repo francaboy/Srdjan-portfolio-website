@@ -176,8 +176,8 @@ type ProjectType = {
 
 export const projectsData: ProjectType[] = [
   {
-    title: "Traži Online",
-    client: "Traži.online",
+    title: "Traži.ba",
+    client: "Traži.ba",
     category: "Websites",
     description:
       "A dynamic news portal delivering real-time updates, breaking news, and in-depth analysis on global events, politics, technology, and entertainment.",
@@ -190,7 +190,7 @@ export const projectsData: ProjectType[] = [
     image1: trazi1,
     image2: trazi2,
     image3: trazi3,
-    projectUrl: "https://trazi.online",
+    projectUrl: "https://trazi.ba/",
     technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
   },
   {
@@ -546,7 +546,7 @@ export const projectsData: ProjectType[] = [
   },
   {
     title: "Traži Oglasi",
-    client: "Traži.online",
+    client: "Traži.ba",
     category: "Websites",
     description:
       "A versatile classified ads platform connecting buyers and sellers with ease, offering a streamlined experience for trading a wide range of goods and services locally.",
@@ -559,7 +559,7 @@ export const projectsData: ProjectType[] = [
     image1: oglasi3,
     image2: oglasi4,
     image3: oglasi2,
-    projectUrl: "https://oglasi.trazi.online",
+    projectUrl: "https://oglasi.trazi.ba",
     technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
   },
 ] as const;

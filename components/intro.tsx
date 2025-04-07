@@ -111,7 +111,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          With over 8+ years of hands-on experience in crafting cutting-edge
+          With over 9+ years of hands-on experience in crafting cutting-edge
           websites, dynamic web applications, and broadcast systems. My digital
           journey has equipped me with diverse skills in web development,
           graphic design, data analysis, and broadcast systems.
