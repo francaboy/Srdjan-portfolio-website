@@ -127,7 +127,7 @@ export const experiencesData = [
     description:
       "Working as developer proficient in React.js, Next.js, TypeScript, CSS, Tailwind, JavaScript,  WordPress, Adobe Suite. Committed to creative, functional websites and apps.",
     icon: React.createElement(RiReactjsLine),
-    date: "Mar 2015 - Present",
+    date: "Apr 2015 - Present",
   },
   {
     title: "Broadcast System Engineer",
@@ -136,7 +136,7 @@ export const experiencesData = [
     description:
       "Managed broadcast equipment, oversaw transmission systems, resolved different technical faults, operated DSNG vehicles, and ensured all requirements for live broadcasts.",
     icon: React.createElement(FaBroadcastTower),
-    date: "Jul 2015 - Mar 2024",
+    date: "Jul 2015 - Feb 2025",
   },
   {
     title: "Data Analyst",
