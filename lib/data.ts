@@ -136,7 +136,7 @@ export const experiencesData = [
     description:
       "Managed broadcast equipment, oversaw transmission systems, resolved different technical faults, operated DSNG vehicles, and ensured all requirements for live broadcasts.",
     icon: React.createElement(FaBroadcastTower),
-    date: "Jul 2015 - Feb 2025",
+    date: "Jul 2015 - Jun 2025",
   },
   {
     title: "Data Analyst",
