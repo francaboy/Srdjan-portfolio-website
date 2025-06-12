@@ -108,11 +108,32 @@ import tanja1 from "@/public/assets/img/png/tanja1.png";
 import tanja2 from "@/public/assets/img/png/tanja2.png";
 import tanja3 from "@/public/assets/img/png/tanja3.png";
 import tanja4 from "@/public/assets/img/png/tanja4.png";
-import oglasi from "@/public/assets/img/png/oglasi.png";
-import oglasi1 from "@/public/assets/img/png/oglasi1.png";
-import oglasi2 from "@/public/assets/img/png/oglasi2.png";
-import oglasi3 from "@/public/assets/img/png/oglasi3.png";
-import oglasi4 from "@/public/assets/img/png/oglasi4.png";
+import funda from "@/public/assets/img/png/funda.png";
+import funda1 from "@/public/assets/img/png/funda1.png";
+import funda2 from "@/public/assets/img/png/funda2.png";
+import funda3 from "@/public/assets/img/png/funda3.png";
+import funda4 from "@/public/assets/img/png/funda4.png";
+import gastro from"@/public/assets/img/png/gastro.png";
+import gastro1 from"@/public/assets/img/png/gastro1.png";
+import gastro2 from"@/public/assets/img/png/gastro2.png";
+import gastro3 from"@/public/assets/img/png/gastro3.png";
+import gastro4 from"@/public/assets/img/png/gastro4.png";
+import milu from"@/public/assets/img/png/milu.png";
+import milu1 from"@/public/assets/img/png/milu1.png";
+import milu2 from"@/public/assets/img/png/milu2.png";
+import milu3 from"@/public/assets/img/png/milu3.png";
+import milu4 from"@/public/assets/img/png/milu4.png";
+import bio from"@/public/assets/img/png/bio.png";
+import bio1 from"@/public/assets/img/png/bio1.png";
+import bio2 from"@/public/assets/img/png/bio2.png";
+import bio3 from"@/public/assets/img/png/bio3.png";
+import bio4 from"@/public/assets/img/png/bio4.png";
+import bl from"@/public/assets/img/png/bl.png";
+import bl1 from"@/public/assets/img/png/bl1.png";
+import bl2 from"@/public/assets/img/png/bl2.png";
+import bl3 from"@/public/assets/img/png/bl3.png";
+import bl4 from"@/public/assets/img/png/bl4.png";
+
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
   name: "Home" | "About" | "Projects" | "Skills" | "Experience" | "Contact";
@@ -226,7 +247,7 @@ export const projectsData: ProjectType[] = [
     image1: isi3,
     image2: isi4,
     image3: isi2,
-    projectUrl: "https://lssadora.com",
+    projectUrl: "https://lssadora-website.vercel.app/",
     technologies: ["React", "Bootstrap 5", "SASS"],
   },
   {
@@ -298,7 +319,7 @@ export const projectsData: ProjectType[] = [
     image1: mega3,
     image2: mega4,
     image3: mega2,
-    projectUrl: "https://www.megaplan.events/",
+    projectUrl: "https://megaplan-events-website-coral.vercel.app/",
     technologies: ["React", "Bootstrap 5", "Next"],
   },
   {
@@ -545,22 +566,98 @@ export const projectsData: ProjectType[] = [
     technologies: ["Photoshop", "Illustrator"],
   },
   {
-    title: "Traži Oglasi",
+    title: "Gastro&Bar",
     client: "Traži.ba",
     category: "Websites",
     description:
-      "A versatile classified ads platform connecting buyers and sellers with ease, offering a streamlined experience for trading a wide range of goods and services locally.",
+      "Designed to highlight menus, events, and ambience, it seamlessly blends bold visual storytelling with essential business features like reservations, contact info, and location mapping.",
     details:
-      "My project is a versatile and user-friendly classified ads platform that connects buyers and sellers effortlessly. It provides a streamlined experience for trading a diverse range of goods and services, catering to both local and global audiences. The platform's intuitive design ensures users can navigate and post ads with ease, fostering a vibrant marketplace.",
+      "My project is a modern and visually engaging website tailored for the hospitality industry, specifically bars and restaurants. It offers a seamless way to present menus, promote events, and share key business information with customers. With an intuitive layout and responsive design, it ensures visitors enjoy a smooth browsing experience across all devices, making it easy to discover the atmosphere, offerings, and unique vibe of each venue.",
     details2:
-      "The platform is built with a modern tech stack, utilizing JavaScript, HTML, and CSS for a sleek and responsive front-end. Server-side logic and database interactions are handled using PHP and SQL, ensuring robust performance and scalability. By leveraging the CodeIgniter framework, the development process is accelerated, and maintainability is enhanced.",
-    imageUrl: oglasi,
-    topimg: oglasi1,
-    image1: oglasi3,
-    image2: oglasi4,
-    image3: oglasi2,
-    projectUrl: "https://oglasi.trazi.ba",
-    technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
+      "The website is developed using a modern tech stack, featuring HTML, SCSS, and JavaScript on the front-end for a responsive and stylish user interface. On the back-end, it leverages the power of Laravel (PHP), providing a robust framework for handling server-side logic, routing, and secure data management. MySQL is used for efficient database operations, while Laravel’s modular structure ensures high maintainability, scalability, and the flexibility to easily integrate features like reservations, menus, or promotional content.",
+    imageUrl: gastro,
+    topimg: gastro1,
+    image1: gastro3,
+    image2: gastro4,
+    image3: gastro2,
+    projectUrl: "https://gastrobar.ba/",
+    technologies: ["PHP", "SQL", "JS", "Laravel"],
+  },
+  {
+    title: "Fundament",
+    client: "UG Fundament",
+    category: "Websites",
+   description:
+  "Created to represent the mission, activities, and values of the organization, this platform provides clear access to news, projects, and resources, all within a clean and accessible interface.",
+details:
+  "My project is a professional and accessible website built for a citizens' association, designed to showcase their initiatives, goals, and community involvement. It offers an intuitive way to explore current projects, stay updated with the latest news, and engage with the organization’s work. The layout emphasizes clarity and responsiveness, ensuring all users—regardless of device—can easily find relevant information and connect with the organization.",
+details2:
+  "The website is built using a modern front-end stack featuring React, Next.js, and Bootstrap 5. This combination allows for fast performance, modular development, and responsive design. The use of Next.js provides server-side rendering and SEO benefits, while Bootstrap 5 ensures a consistent and mobile-friendly UI. The architecture is designed for flexibility and maintainability, making it easy to expand with new sections such as blog posts, member directories, or event listings.",
+
+    imageUrl: funda,
+    topimg: funda1,
+    image1: funda3,
+    image2: funda4,
+    image3: funda2,
+    projectUrl: "https://fundament-website.vercel.app/",
+    technologies: ["React", "Next.js", "Bootstrap 5"],
+  },
+   {
+    title: "Gastro&atelje Milunka",
+    client: "Milunka",
+    category: "Websites",
+  description:
+  "Crafted to reflect the charm and tradition of the restaurant, this website highlights the menu, ambience, and culinary experience through an elegant and engaging design.",
+details:
+  "My project is a stylish and responsive website created for a traditional restaurant, designed to capture its unique atmosphere and showcase its rich culinary offerings. Visitors can explore the menu, view gallery highlights, and find key information like opening hours and location. The layout is optimized for clarity and mobile responsiveness, ensuring every guest enjoys a smooth and inviting browsing experience—whether booking a table or just browsing the specials.",
+details2:
+  "The website is developed using React, Bootstrap 5, and SASS, providing a clean and efficient front-end architecture. This tech stack allows for fast loading times, modular components, and easy styling customization. The responsive design ensures the site looks and works great on all devices, while the codebase remains maintainable and scalable for future additions like online reservations, multilingual support, or seasonal promotions.",
+
+    imageUrl: milu,
+    topimg: milu1,
+    image1: milu3,
+    image2: milu4,
+    image3: milu2,
+    projectUrl: "https://www.restoranmilunka.com/",
+    technologies: ["React", "Next.js", "Bootstrap 5"],
+  },
+  {
+    title: "Biotega",
+    client: "Biotega",
+    category: "Websites",
+ description:
+  "Designed to establish credibility and provide easy access to essential product and regulatory information, this website serves as a central hub for healthcare professionals and industry partners.",
+details:
+  "My project is a clean, professional, and informative website built for Biotega, a medical supplier and regulatory services provider. The platform presents the company’s core services, product range, and expertise in regulatory compliance in a structured and accessible way. Visitors can easily navigate through service categories, learn about regional partnerships, and get in touch through clearly defined contact channels. The layout is tailored for clarity, trust, and efficiency—ideal for the healthcare and pharmaceutical industries.",
+details2:
+  "The website is developed using React, Bootstrap 5, and SASS, ensuring a fast, responsive, and visually consistent experience across all devices. React enables modular component management for scalable development, while Bootstrap 5 offers a sleek, mobile-first grid system. SASS enhances styling efficiency, making it easy to maintain and expand the UI. The tech stack supports future integration with features such as multilingual content, product databases, document downloads, or partner portals.",
+
+    imageUrl: bio,
+    topimg: bio1,
+    image1: bio3,
+    image2: bio4,
+    image3: bio2,
+    projectUrl: "https://www.biotega.net/",
+    technologies: ["React", "Next.js", "Bootstrap 5"],
+  },
+  {
+    title: "Banjalučki Portal",
+    client: "Banjalučki",
+    category: "Websites",
+ description:
+  "Built to inform, engage, and connect the local community, this news portal delivers up-to-date coverage of events, stories, and topics that matter to the citizens of Banja Luka and the surrounding region.",
+details:
+  "My project is a dynamic and content-rich news website tailored for a Banja Luka–based media portal. The platform is designed to deliver timely news, feature articles, interviews, and multimedia content in a clear and reader-friendly format. Users can browse categories like politics, society, culture, and sports, with seamless navigation and fast loading. The portal also supports comment sections, social sharing, and potential ad placement—ensuring both community engagement and monetization opportunities.",
+details2:
+  "The website is developed using React, Bootstrap 5, and SASS, delivering a responsive and modular architecture optimized for performance and content-heavy layouts. React enables flexible rendering of articles and components, while Bootstrap ensures mobile-first responsiveness. SASS provides efficient styling control, especially for managing a broad range of visual elements like headlines, thumbnails, and category color codes. This stack allows easy scaling for future features such as newsletter integration, real-time updates, or author dashboards.",
+
+    imageUrl: bl,
+    topimg: bl1,
+    image1: bl3,
+    image2: bl4,
+    image3: bl2,
+    projectUrl: "https://www.banjaluckibl.com/",
+    technologies: ["Wordpress", "JS", "HTML", "CSS"],
   },
 ] as const;
 
