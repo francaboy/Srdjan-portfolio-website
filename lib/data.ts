@@ -133,6 +133,38 @@ import bl1 from"@/public/assets/img/png/bl1.png";
 import bl2 from"@/public/assets/img/png/bl2.png";
 import bl3 from"@/public/assets/img/png/bl3.png";
 import bl4 from"@/public/assets/img/png/bl4.png";
+import pub from"@/public/assets/img/png/pub.png";
+import pub1 from"@/public/assets/img/png/pub1.png";
+import pub2 from"@/public/assets/img/png/pub2.png";
+import pub3 from"@/public/assets/img/png/pub3.png";
+import pub4 from"@/public/assets/img/png/pub4.png";
+import kaf from"@/public/assets/img/png/kaf.png";
+import kaf1 from"@/public/assets/img/png/kaf1.png";
+import kaf2 from"@/public/assets/img/png/kaf2.png";
+import kaf3 from"@/public/assets/img/png/kaf3.png";
+import kaf4 from"@/public/assets/img/png/kaf4.png";
+import publo from"@/public/assets/img/png/publo.png";
+import publo1 from"@/public/assets/img/png/publo1.png";
+import publo2 from"@/public/assets/img/png/publo2.png";
+import publo3 from"@/public/assets/img/png/publo3.png";
+import publo4 from"@/public/assets/img/png/publo4.png";
+import svadba from"@/public/assets/img/png/svadba.png";
+import svadba1 from"@/public/assets/img/png/svadba1.png";
+import svadba2 from"@/public/assets/img/png/svadba2.png";
+import svadba3 from"@/public/assets/img/png/svadba3.png";
+import svadba4 from"@/public/assets/img/png/svadba4.png";
+import siki from"@/public/assets/img/png/siki.png"; 
+import siki1 from"@/public/assets/img/png/siki1.png";
+import siki2 from"@/public/assets/img/png/siki2.png";
+import siki3 from"@/public/assets/img/png/siki3.png";
+import siki4 from"@/public/assets/img/png/siki4.png";
+import maric from"@/public/assets/img/png/maric.png"; 
+import maric1 from"@/public/assets/img/png/maric1.png";
+import maric2 from"@/public/assets/img/png/maric2.png";
+import maric3 from"@/public/assets/img/png/maric3.png";
+import maric4 from"@/public/assets/img/png/maric4.png";
+
+
 
 // detaljni podaci za sajt, za navbar i ostale informacije
 export type LinkType = {
@@ -658,6 +690,108 @@ details2:
     image3: bl2,
     projectUrl: "https://www.banjaluckibl.com/",
     technologies: ["Wordpress", "JS", "HTML", "CSS"],
+  },
+  {
+    title: "Industry Pub",
+    client: "Industry Pub",
+    category: "Design",
+    description:
+  "Created a bold and inviting brand identity for a local pub, blending vintage charm with modern aesthetics to reflect its lively social atmosphere.",
+details:
+  "This branding project focused on capturing the essence of a cozy neighborhood pub known for its selection of craft beers, quality coffee, and friendly gatherings. The design process included crafting a unique logo with a handcrafted feel, choosing a warm and earthy color palette, and developing visuals that evoke a sense of comfort and community. The final identity supports both print and digital applications, giving the pub a recognizable and welcoming presence that resonates with regulars and newcomers alike.",
+ details2: "",
+    imageUrl: pub,
+    topimg: pub1,
+    image1: pub3,
+    image2: pub4,
+    image3: pub2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+   {
+    title: "Kafeterija by Miscela",
+    client: "Kafeterija by Miscela",
+    category: "Design",
+    description:
+  "Developed a refined and cozy brand identity for Kafeterija Miscel, blending minimalist elegance with the inviting warmth of a neighborhood café.",
+details:
+  "The branding project for Kafeterija Miscel aimed to capture the sensory experience of specialty coffee culture — from the rich aroma to the relaxed ambiance. The logo design features subtle, clean lines inspired by coffee steam and ceramic textures, while the chosen color palette reflects earthy, comforting tones. Supporting materials include packaging, signage, and social media visuals tailored to evoke a modern yet timeless café vibe. The result is a cohesive and memorable identity that invites customers to slow down, savor the moment, and make Miscel their daily ritual.",
+details2: "",
+    imageUrl: kaf,
+    topimg: kaf1,
+    image1: kaf3,
+    image2: kaf4,
+    image3: kaf2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+   {
+    title: "Publo",
+    client: "Publo",
+    category: "Design",
+    description:
+  "Designed a vibrant and contemporary brand identity for PUBLO, a café-bar that blends laid-back daytime vibes with upbeat evening energy.",
+details:
+  "The branding project for PUBLO focused on creating a dynamic visual presence that captures its dual nature — a place for both morning espresso lovers and after-work beer enthusiasts. The logo design merges playful typography with modern bar aesthetics, while the color palette balances warm neutrals with bold accent tones to reflect the shift from day to night. The identity extends across signage, menus, merchandise, and social media, giving PUBLO a fresh, recognizable look that speaks to a younger, social crowd seeking good coffee, good drinks, and even better company.",
+details2: "",
+    imageUrl: publo,
+    topimg: publo1,
+    image1: publo3,
+    image2: publo4,
+    image3: publo2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+   {
+    title: "Wedding Invitation",
+    client: "My Wedding Invitation",
+    category: "Design",
+   description:
+  "Crafted a romantic and timeless identity for my wedding, reflecting the elegance, emotion, and personal touch of every love story.",
+details:
+  "The branding project for my wedding invitation centered around the creation of a sophisticated and heartfelt visual identity tailored to couples celebrating one of life’s most meaningful milestones. The logo design combines delicate typography with subtle graphic motifs such as florals and script accents, evoking a sense of grace and intimacy. A refined color palette—featuring soft pastels and luxurious neutrals—was chosen to appeal to a range of wedding styles, from classic to modern. The brand identity was applied across printed materials, packaging, and social media templates, resulting in a cohesive and emotionally resonant experience that captures the beauty and individuality of each event.",
+details2: "",
+    imageUrl: svadba,
+    topimg: svadba1,
+    image1: svadba3,
+    image2: svadba4,
+    image3: svadba2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Šiki Market",
+    client: "Šiki Market",
+    category: "Design",
+  description:
+  "Developed a cheerful and approachable brand identity for Šiki Market, combining local charm with modern convenience to reflect its role in the neighborhood.",
+details:
+  "The branding for Šiki Market aimed to capture the friendly, everyday spirit of a community-focused store. The visual identity features playful typography and bright, welcoming colors designed to stand out while staying warm and accessible. The logo and accompanying visuals reflect freshness, reliability, and a sense of familiarity—qualities that customers associate with their go-to corner shop. Applications included storefront signage, packaging, uniforms, and social media graphics, resulting in a cohesive presence that helps Šiki Market remain a trusted and recognizable part of the local daily routine.",
+details2: "",
+    imageUrl: siki,
+    topimg: siki1,
+    image1: siki3,
+    image2: siki4,
+    image3: siki2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
+  },
+  {
+    title: "Pčelarstvo Marić",
+    client: "Pčelarstvo Marić",
+    category: "Design",
+  description:
+  "Created an authentic and nature-inspired brand identity for Pčelarstvo Marić, emphasizing tradition, purity, and the craft of beekeeping.",
+details:
+  "The branding project for Pčelarstvo Marić was rooted in showcasing the family’s long-standing dedication to natural honey production. The logo design features organic forms inspired by bees, honeycombs, and wildflowers, while the color palette draws from warm earth tones and golden hues of raw honey. Typography with a handcrafted feel reinforces the artisanal quality of their products. The identity was applied across product packaging, jar labels, signage, and social media, delivering a visual story that reflects care for nature, respect for tradition, and a promise of unadulterated quality in every drop of honey.",
+details2: "",
+    imageUrl: maric,
+    topimg: maric1,
+    image1: maric3,
+    image2: maric4,
+    image3: maric2,
+    projectUrl: "",
+    technologies: ["Photoshop", "Illustrator"],
   },
 ] as const;
 
