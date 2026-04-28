@@ -178,7 +178,7 @@ export const experiencesData = [
     company: "FrancaTech",
     location: "Banja Luka, B&H",
     description:
-      "Working as developer proficient in React.js, Next.js, TypeScript, CSS, Tailwind, JavaScript,  WordPress, Adobe Suite. Committed to creative, functional websites and apps.",
+      "Working as developer proficient in React.js, Next.js, TypeScript, CSS, Tailwind, JavaScript,  Figma, Adobe Suite. Committed to creative, functional websites and apps.",
     icon: React.createElement(RiReactjsLine),
     date: "Apr 2015 - Present",
   },
@@ -808,4 +808,5 @@ export const skillsData = [
   { name: "Git", logo: "./assets/img/svg/git.svg", percentage: 90 },
   { name: "Photoshop", logo: "./assets/img/svg/ps.svg", percentage: 90 },
   { name: "Illustrator", logo: "./assets/img/svg/ai.svg", percentage: 90 },
+  { name: "Figma", logo: "./assets/img/svg/figma.svg", percentage: 90 },
 ] as const;

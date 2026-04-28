@@ -35,7 +35,7 @@ export default function About() {
         <span style={{ color: "#877cdb" }}>CSS</span>, and{" "}
         <span style={{ color: "#877cdb" }}>JavaScript</span>, crafting dynamic
         and tasty websites. Proficient in{" "}
-        <span style={{ color: "#877cdb" }}>WordPress</span> and{" "}
+        <span style={{ color: "#877cdb" }}>Figma</span> and{" "}
         <span style={{ color: "#877cdb" }}>Adobe Suite</span>, I combine
         creativity with technical prowess to supply extraordinary virtual
         answers. With a history in{" "}
