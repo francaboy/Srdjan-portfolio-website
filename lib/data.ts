@@ -174,11 +174,11 @@ export type LinkType = {
 
 export const experiencesData = [
   {
-    title: "Web Developer",
+    title: "Graphic Designer & Web Developer",
     company: "FrancaTech",
     location: "Banja Luka, B&H",
     description:
-      "Working as developer proficient in React.js, Next.js, TypeScript, CSS, Tailwind, JavaScript,  Figma, Adobe Suite. Committed to creative, functional websites and apps.",
+      "As a Graphic Designer & Web Developer, I leverage the Adobe Suite and Figma to craft stunning visuals, then bring them to life using React.js, Next.js, and Tailwind CSS.",
     icon: React.createElement(RiReactjsLine),
     date: "Apr 2015 - Present",
   },

@@ -26,7 +26,7 @@ export default function About() {
         About me
       </motion.section>
       <p className="mb-3 font-medium text-[20px]">
-        Experienced <span style={{ color: "#877cdb" }}>Software Engineer</span>{" "}
+        Experienced <span style={{ color: "#877cdb" }}>Graphic Designer & Web Developer</span>{" "}
         with a strong base in programming languages and design principles.
         <span> I focus on </span>
         <span style={{ color: "#877cdb" }}>React.Js</span>,{" "}
@@ -42,7 +42,7 @@ export default function About() {
         <span style={{ color: "#877cdb" }}>Broadcast System Engineering</span>{" "}
         and <span style={{ color: "#877cdb" }}>Data Analysis</span>, I offer a
         unique perspective and a numerous talent set to power fulfilment in each
-        challenge. Let&apos;s get together to make your digital dream and vision
+        challenge. Let&apos;s get together to make your digital<br></br> dream and vision
         a reality!
       </p>
     </motion.section> // sekcija moze da ima animaciju

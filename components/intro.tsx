@@ -105,14 +105,14 @@ export default function Intro() {
           </span>
         </span>{" "}
         <br />
-        <span className="font-bold"> A Software Engineer</span> <br />
+        <span className="font-bold"> Graphic Designer<br></br> & Web Developer</span> <br />
         <motion.p
           className="py-4 text-gray-600 max-w-full m-auto sm:text-2xl dark:text-white"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          With over 9+ years of hands-on experience in crafting cutting-edge
-          websites, dynamic web applications, and broadcast systems. My digital
+          With over 9+ years of hands-on experience in crafting stunning designs,
+          cutting-edge websites, and dynamic web applications. My digital
           journey has equipped me with diverse skills in web development,
           graphic design, data analysis, and broadcast systems.
         </motion.p>
@@ -133,7 +133,7 @@ export default function Intro() {
               handleButtonClick(e, { name: "Contact", hash: "contact" })
             }
           >
-            Let&apos;s Work Together
+            Let&apos;s Work
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
           </Link>
           <a
@@ -146,7 +146,17 @@ export default function Intro() {
             Curriculum Vitae{" "}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
-
+          
+          <a
+            className="bg-[#877cdb] p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] 
+          hover:scale-[1.15] hover:bg-[#9d90fe] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white"
+            href="https://www.linkedin.com/in/srdjan-milosevic/"
+            target="_blank"
+            download
+          >
+            Figma Portfolio
+            
+          </a>
           <a
             className="bg-[#877cdb] p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] 
           hover:scale-[1.15] hover:bg-[#9d90fe] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white"
