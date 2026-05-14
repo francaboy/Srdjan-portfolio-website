@@ -150,7 +150,7 @@ export default function Intro() {
           <a
             className="bg-[#877cdb] p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] 
           hover:scale-[1.15] hover:bg-[#9d90fe] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white"
-            href="https://www.linkedin.com/in/srdjan-milosevic/"
+            href="https://www.figma.com/design/Uy2oNKUkO3h7CuYlg21DJ8/My-Portfolio?node-id=0-1&t=DhtuAOt069BKZnoZ-1"
             target="_blank"
             download
           >

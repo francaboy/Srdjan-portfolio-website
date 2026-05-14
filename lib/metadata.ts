@@ -1,5 +1,5 @@
 
 export const metadata = {
-    title: "Srđan Milošević | Software Engineer",
+    title: "Srđan Milošević | Portfolio",
     description: "Welcome to my website.",
   };
