@@ -27,22 +27,20 @@ export default function About() {
       </motion.section>
       <p className="mb-3 font-medium text-[20px]">
         Experienced <span style={{ color: "#877cdb" }}>Graphic Designer & Web Developer</span>{" "}
-        with a strong base in programming languages and design principles.
+        with a strong foundation in programming and design principles.
         <span> I focus on </span>
         <span style={{ color: "#877cdb" }}>React.Js</span>,{" "}
         <span style={{ color: "#877cdb" }}>Next.Js</span>,{" "}
         <span style={{ color: "#877cdb" }}>HTML</span>,{" "}
         <span style={{ color: "#877cdb" }}>CSS</span>, and{" "}
         <span style={{ color: "#877cdb" }}>JavaScript</span>, crafting dynamic
-        and tasty websites. Proficient in{" "}
+        and engaging websites. Proficient in{" "}
         <span style={{ color: "#877cdb" }}>Figma</span> and{" "}
         <span style={{ color: "#877cdb" }}>Adobe Suite</span>, I combine
-        creativity with technical prowess to supply extraordinary virtual
-        answers. With a history in{" "}
-        <span style={{ color: "#877cdb" }}>Broadcast System Engineering</span>{" "}
-        and <span style={{ color: "#877cdb" }}>Data Analysis</span>, I offer a
-        unique perspective and a numerous talent set to power fulfilment in each
-        challenge. Let&apos;s get together to make your digital<br></br> dream and vision
+        creativity with technical prowess to deliver extraordinary digital solutions.. With a background in{" "}
+        <span style={{ color: "#877cdb" }}>Broadcast System Engineering,</span>{" "}
+        <span style={{ color: "#877cdb" }}>Data Analysis</span>, and<span style={{ color: "#877cdb" }}>Email Marketing.</span>
+        I offer a unique perspective and a diverse skill set to drive success in every project. Let&apos;s get together to make your digital<br></br> dream and vision
         a reality!
       </p>
     </motion.section> // sekcija moze da ima animaciju

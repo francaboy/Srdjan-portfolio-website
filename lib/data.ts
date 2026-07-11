@@ -183,13 +183,22 @@ export const experiencesData = [
     date: "Apr 2015 - Present",
   },
   {
+    title: "Email Marketing Specialist",
+    company: "051 Media House ",
+    location: "Banja Luka, B&H",
+    description:
+      "Designed high-converting email layouts in Figma, built and optimized responsive templates within Klaviyo and analyzed performance metrics to boost client engagement.",
+    icon: React.createElement(FaBroadcastTower),
+    date: "Apr 2023 - Jun 2026",
+  },
+  {
     title: "Broadcast System Engineer",
     company: "RTRS",
     location: "Banja Luka, B&H",
     description:
       "Managed broadcast equipment, oversaw transmission systems, resolved different technical faults, operated DSNG vehicles, and ensured all requirements for live broadcasts.",
     icon: React.createElement(FaBroadcastTower),
-    date: "Jul 2015 - Jun 2025",
+    date: "Jul 2015 - Jun 2026",
   },
   {
     title: "Data Analyst",
@@ -230,7 +239,7 @@ type ProjectType = {
 export const projectsData: ProjectType[] = [
   {
     title: "Traži.ba",
-    client: "Traži.ba",
+    client: "Gastrobar.ba",
     category: "Websites",
     description:
       "A dynamic news portal delivering real-time updates, breaking news, and in-depth analysis on global events, politics, technology, and entertainment.",
@@ -243,7 +252,7 @@ export const projectsData: ProjectType[] = [
     image1: trazi1,
     image2: trazi2,
     image3: trazi3,
-    projectUrl: "https://trazi.ba/",
+    projectUrl: "https://gastrobar.ba/",
     technologies: ["PHP", "SQL", "JS", "CodeIgniter"],
   },
   {
@@ -315,7 +324,7 @@ export const projectsData: ProjectType[] = [
     image1: tech3,
     image2: tech4,
     image3: tech2,
-    projectUrl: "https://conseltech.se/",
+    projectUrl: "https://consel-tech-website-xoe8.vercel.app/",
     technologies: ["React", "Bootstrap 5", "Next"],
   },
   {
@@ -598,8 +607,8 @@ export const projectsData: ProjectType[] = [
     technologies: ["Photoshop", "Illustrator"],
   },
   {
-    title: "Gastro&Bar",
-    client: "Traži.ba",
+    title: "Gastro & Bar",
+    client: "Gastro & Bar",
     category: "Websites",
     description:
       "Designed to highlight menus, events, and ambience, it seamlessly blends bold visual storytelling with essential business features like reservations, contact info, and location mapping.",
@@ -612,7 +621,7 @@ export const projectsData: ProjectType[] = [
     image1: gastro3,
     image2: gastro4,
     image3: gastro2,
-    projectUrl: "https://gastrobar.ba/",
+    projectUrl: "https://oglasi.gastrobar.ba/",
     technologies: ["PHP", "SQL", "JS", "Laravel"],
   },
   {
@@ -635,7 +644,7 @@ details2:
     technologies: ["React", "Next.js", "Bootstrap 5"],
   },
    {
-    title: "Gastro&atelje Milunka",
+    title: "Gastro & Atelje Milunka",
     client: "Milunka",
     category: "Websites",
   description:
@@ -688,7 +697,7 @@ details2:
     image1: bl3,
     image2: bl4,
     image3: bl2,
-    projectUrl: "https://www.banjaluckibl.com/",
+    projectUrl: "https://banjaluckibl.com/",
     technologies: ["Wordpress", "JS", "HTML", "CSS"],
   },
   {
@@ -796,17 +805,20 @@ details2: "",
 ] as const;
 
 export const skillsData = [
-  { name: "HTML", logo: "./assets/img/svg/html.svg", percentage: 100 },
-  { name: "CSS", logo: "./assets/img/svg/css.svg", percentage: 100 },
-  { name: "JavaScript", logo: "./assets/img/svg/js.svg", percentage: 95 },
+  
   { name: "React", logo: "./assets/img/svg/react.svg", percentage: 85 },
   { name: "Next.js", logo: "./assets/img/svg/next.svg", percentage: 85 },
   { name: "Node.js", logo: "./assets/img/svg/node.svg", percentage: 85 },
-  { name: "TypeScript", logo: "./assets/img/svg/type.svg", percentage: 90 },
-  { name: "Tailwind", logo: "./assets/img/svg/tailwind.svg", percentage: 80 },
-  { name: "Wordpress", logo: "./assets/img/svg/wordpress.svg", percentage: 95 },
-  { name: "Git", logo: "./assets/img/svg/git.svg", percentage: 90 },
+  { name: "Figma", logo: "./assets/img/svg/figma.svg", percentage: 90 },
   { name: "Photoshop", logo: "./assets/img/svg/ps.svg", percentage: 90 },
   { name: "Illustrator", logo: "./assets/img/svg/ai.svg", percentage: 90 },
-  { name: "Figma", logo: "./assets/img/svg/figma.svg", percentage: 90 },
+  { name: "Wordpress", logo: "./assets/img/svg/wordpress.svg", percentage: 95 },
+  { name: "Git", logo: "./assets/img/svg/git.svg", percentage: 90 },
+  { name: "HTML", logo: "./assets/img/svg/html.svg", percentage: 100 },
+  { name: "CSS", logo: "./assets/img/svg/css.svg", percentage: 100 },
+  { name: "JavaScript", logo: "./assets/img/svg/js.svg", percentage: 95 },
+  { name: "TypeScript", logo: "./assets/img/svg/type.svg", percentage: 90 },
+  { name: "Tailwind", logo: "./assets/img/svg/tailwind.svg", percentage: 80 },
+  
+  
 ] as const;
