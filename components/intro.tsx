@@ -113,7 +113,7 @@ export default function Intro() {
         >
           With over 9+ years of hands-on experience in crafting stunning designs,
           cutting-edge websites, and dynamic web applications. My digital
-          journey has equipped me with diverse skills in web development,
+          journey has equipped me with diverse skills in<br></br>web development,
           graphic design, data analysis,<br></br>and broadcast systems.
         </motion.p>
         <motion.div
