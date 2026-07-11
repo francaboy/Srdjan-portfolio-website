@@ -40,7 +40,7 @@ export default function About() {
         creativity with technical prowess to deliver extraordinary digital solutions.. With a background in{" "}
         <span style={{ color: "#877cdb" }}>Broadcast System Engineering,</span>{" "}
         <span style={{ color: "#877cdb" }}>Data Analysis</span>, and<span style={{ color: "#877cdb" }}>Email Marketing.</span>
-        I offer a unique perspective and a diverse skill set to drive success in every project. Let&apos;s get together to make your digital<br></br> dream and vision
+        I offer a unique perspective and a diverse skill set to drive success in every project. Let&apos;s get together to make your digital dream and vision
         a reality!
       </p>
     </motion.section> // sekcija moze da ima animaciju

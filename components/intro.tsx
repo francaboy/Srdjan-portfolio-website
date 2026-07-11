@@ -114,7 +114,7 @@ export default function Intro() {
           With over 9+ years of hands-on experience in crafting stunning designs,
           cutting-edge websites, and dynamic web applications. My digital
           journey has equipped me with diverse skills in web development,
-          graphic design, data analysis, and broadcast systems.
+          graphic design, data analysis,<br></br>and broadcast systems.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium mt-4"
