@@ -32,7 +32,7 @@ export default function About() {
         <span style={{ color: "#877cdb" }}>Figma</span>,{" "}
         <span style={{ color: "#877cdb" }}>Adobe Suite</span>, and{" "}
         <span style={{ color: "#877cdb" }}>Klaviyo</span> crafting high-converting emails. Proficient in{" "}
-        <span style={{ color: "#877cdb" }}>React.Js</span>, 
+        <span style={{ color: "#877cdb" }}>React.Js</span>,{" "}
         <span style={{ color: "#877cdb" }}>Next.Js</span>, and{" "}
         <span style={{ color: "#877cdb" }}>JavaScript</span>, to deliver extraordinary web solutions. With a background in{" "}
         <span style={{ color: "#877cdb" }}>Broadcast System Engineering,</span>{" "}
