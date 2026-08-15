@@ -26,20 +26,17 @@ export default function About() {
         About me
       </motion.section>
       <p className="mb-3 font-medium text-[20px]">
-        Experienced <span style={{ color: "#877cdb" }}>Graphic Designer & Web Developer</span>{" "}
+        Experienced <span style={{ color: "#877cdb" }}>Email Designer & Web Developer</span>{" "}
         with a strong foundation in programming and design principles.
-        <span> I focus on </span>
-        <span style={{ color: "#877cdb" }}>React.Js</span>,{" "}
-        <span style={{ color: "#877cdb" }}>Next.Js</span>,{" "}
-        <span style={{ color: "#877cdb" }}>HTML</span>,{" "}
-        <span style={{ color: "#877cdb" }}>CSS</span>, and{" "}
-        <span style={{ color: "#877cdb" }}>JavaScript</span>, crafting dynamic
-        and engaging websites. Proficient in{" "}
-        <span style={{ color: "#877cdb" }}>Figma</span> and{" "}
-        <span style={{ color: "#877cdb" }}>Adobe Suite</span>, I combine
-        creativity with technical prowess to deliver extraordinary digital solutions.. With a background in{" "}
+        <span> I focus on email design with </span>
+        <span style={{ color: "#877cdb" }}>Figma</span>,{" "}
+        <span style={{ color: "#877cdb" }}>Adobe Suite</span>, and{" "}
+        <span style={{ color: "#877cdb" }}>Klaviyo</span> crafting high-converting emails. Proficient in{" "}
+        <span style={{ color: "#877cdb" }}>React.Js</span>, 
+        <span style={{ color: "#877cdb" }}>Next.Js</span>, and{" "}
+        <span style={{ color: "#877cdb" }}>JavaScript</span>, to deliver extraordinary web solutions. With a background in{" "}
         <span style={{ color: "#877cdb" }}>Broadcast System Engineering,</span>{" "}
-        <span style={{ color: "#877cdb" }}>Data Analysis</span>, and<span style={{ color: "#877cdb" }}>Email Marketing.</span>
+        <span style={{ color: "#877cdb" }}>Data Analysis</span>, and<span style={{ color: "#877cdb" }}> Email Marketing.</span>
         I offer a unique perspective and a diverse skill set to drive success in every project. Let&apos;s get together to make your digital dream and vision
         a reality!
       </p>

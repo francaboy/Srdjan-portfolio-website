@@ -105,13 +105,13 @@ export default function Intro() {
           </span>
         </span>{" "}
         <br />
-        <span className="font-bold"> Graphic Designer<br></br> & Web Developer</span> <br />
+        <span className="font-bold"> Email Designer<br></br> & Developer</span> <br />
         <motion.p
           className="py-4 text-gray-600 max-w-full m-auto sm:text-2xl dark:text-white"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          With over 9+ years of hands-on experience in crafting stunning designs,
+          With over 10+ years of hands-on experience in crafting stunning designs,
           cutting-edge websites, and dynamic web applications. My digital
           journey has equipped me with diverse skills in<br></br>web development,
           graphic design, data analysis,<br></br>and broadcast systems.
