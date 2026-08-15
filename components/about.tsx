@@ -35,7 +35,7 @@ export default function About() {
         <span style={{ color: "#877cdb" }}>React.Js</span>,{" "}
         <span style={{ color: "#877cdb" }}>Next.Js</span>, and{" "}
         <span style={{ color: "#877cdb" }}>JavaScript</span>, to deliver extraordinary web solutions. With a background in{" "}
-        <span style={{ color: "#877cdb" }}>Broadcast System Engineering,</span>{" "}
+        <span style={{ color: "#877cdb" }}>Broadcast System Engineering</span>,{" "}
         <span style={{ color: "#877cdb" }}>Data Analysis</span>, and<span style={{ color: "#877cdb" }}> Email Marketing.</span>
         I offer a unique perspective and a diverse skill set to drive success in every project. Let&apos;s get together to make your digital dream and vision
         a reality!
